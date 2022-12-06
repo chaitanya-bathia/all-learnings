@@ -1,0 +1,61 @@
+#header
+{
+    display:block;
+    background-color: red;
+    width:100%;
+    height: 90px;
+    text-align: center;
+}
+
+#img
+{
+    float: left;
+}
+
+#logo
+{
+    display: inline-block;
+    height:90px;
+    width: auto;
+}
+
+#linkBox
+{
+    font-size: xx-large;
+    height: 90px;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+.navLink
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+#midContent
+{
+    background-color: orange;
+}
+
+#sidebar
+{
+    display: inline-block;
+    background-color: yellow;
+    width:150px;
+}
+
+#mainContent
+{
+    display: inline-block;
+    vertical-align: top; 
+    position: absolute;
+}
+
+#footer
+{
+    display: block;
+    text-align: center;
+    background-color: lightcoral;
+}

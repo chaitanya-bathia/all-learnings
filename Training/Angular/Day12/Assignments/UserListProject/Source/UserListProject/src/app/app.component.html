@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row" *ngFor="let obj of userList" >
+    <div class="col-2"><button class="btn btn-warning" [routerLink]="['/user-list',obj.userID]">{{obj.userName}}</button></div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+

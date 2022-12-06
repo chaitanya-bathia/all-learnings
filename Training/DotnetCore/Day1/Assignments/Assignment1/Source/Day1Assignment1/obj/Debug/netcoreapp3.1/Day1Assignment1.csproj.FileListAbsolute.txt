@@ -1,0 +1,14 @@
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Assignment\Assignment1\Source\Day1Assignment1\bin\Debug\netcoreapp3.1\Day1Assignment1.exe
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Assignment\Assignment1\Source\Day1Assignment1\bin\Debug\netcoreapp3.1\Day1Assignment1.deps.json
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Assignment\Assignment1\Source\Day1Assignment1\bin\Debug\netcoreapp3.1\Day1Assignment1.runtimeconfig.json
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Assignment\Assignment1\Source\Day1Assignment1\bin\Debug\netcoreapp3.1\Day1Assignment1.runtimeconfig.dev.json
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Assignment\Assignment1\Source\Day1Assignment1\bin\Debug\netcoreapp3.1\Day1Assignment1.dll
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Assignment\Assignment1\Source\Day1Assignment1\bin\Debug\netcoreapp3.1\Day1Assignment1.pdb
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Assignment\Assignment1\Source\Day1Assignment1\obj\Debug\netcoreapp3.1\Day1Assignment1.csproj.AssemblyReference.cache
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Assignment\Assignment1\Source\Day1Assignment1\obj\Debug\netcoreapp3.1\Day1Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Assignment\Assignment1\Source\Day1Assignment1\obj\Debug\netcoreapp3.1\Day1Assignment1.AssemblyInfoInputs.cache
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Assignment\Assignment1\Source\Day1Assignment1\obj\Debug\netcoreapp3.1\Day1Assignment1.AssemblyInfo.cs
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Assignment\Assignment1\Source\Day1Assignment1\obj\Debug\netcoreapp3.1\Day1Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Assignment\Assignment1\Source\Day1Assignment1\obj\Debug\netcoreapp3.1\Day1Assignment1.dll
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Assignment\Assignment1\Source\Day1Assignment1\obj\Debug\netcoreapp3.1\Day1Assignment1.pdb
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Assignment\Assignment1\Source\Day1Assignment1\obj\Debug\netcoreapp3.1\Day1Assignment1.genruntimeconfig.cache

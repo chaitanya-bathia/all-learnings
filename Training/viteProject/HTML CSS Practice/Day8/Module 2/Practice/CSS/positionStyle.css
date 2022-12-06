@@ -1,0 +1,38 @@
+
+
+.child
+{
+    
+    
+    width: 100%;
+}
+
+#child1
+{
+    background-color: red;
+    position:static;
+    
+}
+
+#child2
+{
+    background-color: pink;
+    position:relative;
+    top: 20px;
+    left: 10px;
+}
+#child3
+{
+    background: purple;
+    position:fixed;
+    top: 300px;
+    left: 30px;
+}
+
+#child4
+{
+    background-color: brown;
+    position:absolute;
+    top: 250px;
+    left: 50px;
+}

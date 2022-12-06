@@ -1,0 +1,51 @@
+[
+    {
+        "EmpId": 1,
+        "FirstName": "Chaitanya",
+        "LastName": "Bathia",
+        "Assignments": [
+            {
+                "AssignmentId": 1,
+                "AssignmentCategory": "Node",
+                "AssignmentName": "Customer Rest Api",
+                "AssignmentStatus": "Completed"
+            },
+            {
+                "AssignmentId": 2,
+                "AssignmentCategory": "Node",
+                "AssignmentName": "Emplyees Rest Api",
+                "AssignmentStatus": "Pending"
+            }
+        ]
+    },
+    {
+        "EmpId": 2,
+        "FirstName": "Stuti",
+        "LastName": "Shahu",
+        "Assignments": [
+            {
+                "AssignmentId": 1,
+                "AssignmentCategory": "Node",
+                "AssignmentName": "Dealers Rest Api",
+                "AssignmentStatus": "Completed"
+            }
+        ]
+    },
+    {
+        "EmpId": 3,
+        "FirstName": "Ritu",
+        "LastName": "Kandoliya",
+        "Assignments": [
+            {
+                "AssignmentId": 1,
+                "AssignmentName": "Rest Api",
+                "AssignmentStatus": "Completed",
+                "AssignmentCategory": "Java"
+            }
+        ]
+    },
+    {
+        "username": "admin",
+        "password": "admin"
+    }
+]

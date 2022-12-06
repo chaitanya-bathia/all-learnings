@@ -1,0 +1,14 @@
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment1\Source\Day6Assignment\bin\Debug\netcoreapp3.1\Day6Assignment.exe
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment1\Source\Day6Assignment\bin\Debug\netcoreapp3.1\Day6Assignment.deps.json
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment1\Source\Day6Assignment\bin\Debug\netcoreapp3.1\Day6Assignment.runtimeconfig.json
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment1\Source\Day6Assignment\bin\Debug\netcoreapp3.1\Day6Assignment.runtimeconfig.dev.json
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment1\Source\Day6Assignment\bin\Debug\netcoreapp3.1\Day6Assignment.dll
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment1\Source\Day6Assignment\bin\Debug\netcoreapp3.1\Day6Assignment.pdb
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment1\Source\Day6Assignment\obj\Debug\netcoreapp3.1\Day6Assignment.csproj.AssemblyReference.cache
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment1\Source\Day6Assignment\obj\Debug\netcoreapp3.1\Day6Assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment1\Source\Day6Assignment\obj\Debug\netcoreapp3.1\Day6Assignment.AssemblyInfoInputs.cache
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment1\Source\Day6Assignment\obj\Debug\netcoreapp3.1\Day6Assignment.AssemblyInfo.cs
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment1\Source\Day6Assignment\obj\Debug\netcoreapp3.1\Day6Assignment.csproj.CoreCompileInputs.cache
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment1\Source\Day6Assignment\obj\Debug\netcoreapp3.1\Day6Assignment.dll
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment1\Source\Day6Assignment\obj\Debug\netcoreapp3.1\Day6Assignment.pdb
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment1\Source\Day6Assignment\obj\Debug\netcoreapp3.1\Day6Assignment.genruntimeconfig.cache

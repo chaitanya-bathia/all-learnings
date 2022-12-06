@@ -1,0 +1,185 @@
+.flex-container
+{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    height: 100%;
+    background-color: teal;
+    color:white;
+    float: left;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: x-large;
+    justify-content: center;
+    position: fixed;
+}
+
+#mainContainer
+{
+    width: 79%;
+    float: right;
+    margin-top: 20%;
+}
+
+section
+{
+    margin-left: 5%;
+    height: 500px;
+}
+
+#objective
+{
+    width: 95%;
+}
+
+#projects
+{
+    width: 90%;
+}
+
+#qualification
+{
+    text-align: center; 
+    width: 60%; 
+    margin:10px auto ;
+}
+
+.links
+{
+    text-decoration: none;
+    color: white;
+}
+
+#name
+{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#surname
+{
+    color: teal;
+}
+
+div div
+{
+    margin: 10px;
+}
+
+#picture
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+@media (max-width:1200px)
+{
+    #imgDiv
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 900px)
+{
+    .links
+    {
+        font-size: small;
+    }
+}
+
+@media (max-width: 700px)
+{
+    .links
+    {
+        font-size: xx-small;
+    }
+}
+
+@media (max-width:700px)
+{
+    section
+    {
+        font-size: xx-small;
+    }
+}
+
+@media (max-width:900px)
+{
+    video
+    {
+        height: 200px;
+        width: auto;
+    }
+}
+
+@media (max-width:700px)
+{
+    video
+    {
+        height: 100px;
+        width: auto;
+    }
+}
+
+@media (max-width:769px)
+{
+    body
+    {
+        margin: 0%;
+    }
+    .flex-container
+    {
+        margin-top: 0;
+        position:unset;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    #imgDiv
+    {
+        display: none;
+    }
+    
+    #mainContainer
+    {
+        float: none;
+        margin:0 0 0 5%;
+        width: 80%;
+    }
+    
+    #qualification
+    {
+        width: 100%;
+        margin: 0;
+    }
+    
+    #objective
+    {
+        width: 100%;
+    }
+
+    #about
+    {
+        padding-top:100px;
+    }
+
+    #projects
+    {
+        width: 100%;
+    }
+    
+    section
+    {
+        width: 100%;
+        text-align: justify;
+    }
+
+    div div
+    {
+        margin: 0 5px 10px 0;
+    }
+}

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Bootstrap Practice</title>
+</head>
+<body>
+    <section id="gridDemo">
+        <div class="container bg-warning">
+            <p class="text-dark display-6">Grid Demo</p>
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="row bg-info my-2">
+                <div class="col text-center">Single Col</div>
+            </div>
+            <div class="row bg-success text-center text-white my-2">
+                <div class="col ">two equal cols</div>
+                <div class="col ">two equal cols</div>
+            </div>
+            <div class="row bg-warning text-center my-2">
+                <div class="col ">three equal cols</div>
+                <div class="col ">three equal cols</div>
+                <div class="col ">three equal cols</div>
+            </div>
+            <div class="row bg-primary text-center text-white my-2">
+                <div class="col ">four equal cols</div>
+                <div class="col ">four equal cols</div>
+                <div class="col ">four equal cols</div>
+                <div class="col ">four equal cols</div>
+            </div>
+            <div class="row bg-success text-center text-white my-2">
+                <div class="col ">6 equal cols</div>
+                <div class="col ">6 equal cols</div>
+                <div class="col ">6 equal cols</div>
+                <div class="col ">6 equal cols</div>
+                <div class="col ">6 equal cols</div>
+                <div class="col ">6 equal cols</div>
+            </div>
+            <div class="row text-center text-white my-2">
+                <div class="col bg-primary">12 equal cols</div>
+                <div class="col bg-warning">12 equal cols</div>
+                <div class="col bg-success">12 equal cols</div>
+                <div class="col bg-primary">12 equal cols</div>
+                <div class="col bg-warning">12 equal cols</div>
+                <div class="col bg-success">12 equal cols</div>
+                <div class="col bg-primary">12 equal cols</div>
+                <div class="col bg-warning">12 equal cols</div>
+                <div class="col bg-success">12 equal cols</div>
+                <div class="col bg-primary">12 equal cols</div>
+                <div class="col bg-info">12 equal cols</div>
+                <div class="col bg-warning">12 equal cols</div>
+            </div>
+            <div class="row  text-center">
+                <div class="col-4 bg-primary text-white">Unequal Div</div>
+                <div class="col-8 bg-warning">Unequal Div</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="typographyDemo">
+        <div class="container bg-primary text-white text-center my-3">
+            <p class="display-6">Typography Demo</p>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <p class="h1">Heading1</p>
+                    <p class="h2">Heading2</p>
+                    <p class="h3">Heading3</p>
+                    <p class="h4">Heading4</p>
+                    <p class="h5">Heading5</p>
+                    <p class="h6">Heading6</p>
+                </div>
+
+                <div class="col">
+                    <p class="display-1">Display-1</p>
+                    <p class="display-2">Display-2</p>
+                    <p class="display-3">Display-3</p>
+                    <p class="display-4">Display-4</p>
+                    <p class="display-5">Display-5</p>
+                    <p class="display-6">Display-6</p>
+                </div>
+
+                <div class="col">
+                    <h1>Heading 1, <small>Secondary text</small></h1>
+                    <h2>Heading 2, <small>Secondary text</small></h2>
+                    <h3>Heading 3 , <small>Secondary text</small></h3>
+                    <h4>Heading 4 , <small>Secondary text</small></h4>
+                    <h5>Heading 5 , <small>Secondary text</small></h5>
+                    <h6>Heading 6 , <small>Secondary text</small></h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">This is a demo for <mark>mark</mark></div>
+                <div class="col">This is a demo for <abbr title="Abbreviation Tag">abbr</abbr></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>The following text displays blockquote</p>
+                    <blockquote class="blockquote"><p>This text is displaying Blockquote.</p></blockquote>
+                    <footer class="blockquote-footer">From BLOCKQUOTE</footer>
+                </div>
+
+                <div class="col">
+                    <h3>Description List</h3>
+                    <dl>
+                        <dt>Top1</dt>
+                        <dd>Description1</dd>
+                        <dt>Top2</dt>
+                        <dd>Description1</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>This line displays <code>demo</code> for the <code>code tag</code></p>
+                </div>
+                <div class="col">
+                    <p>This is the <kbd>kbd tag</kbd> to highlight text in dark</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tableDemo">
+        <div class="container bg-secondary text-white text-center my-3">
+            <p class="display-6">table Demo</p>
+        </div>
+
+
+        <table class="table">
+            <caption style="display: none;">This table displays normal BS table</caption>
+            <tr>
+                <th>Header1</th>
+                <th>Header2</th>
+                <th>Header3</th>
+                <th>Header4</th>
+            </tr>
+            <tr>
+                <td>1st</td>
+                <td>2nd</td>
+                <td>3rd</td>
+                <td>4th</td>
+            </tr>
+        </table>
+
+        <table class=" table table-bordered">
+            <caption style="display: none;">This table displays bordered BS table</caption>
+            <tr>
+                <th>Header1</th>
+                <th>Header2</th>
+                <th>Header3</th>
+                <th>Header4</th>
+            </tr>
+            <tr>
+                <td>1st</td>
+                <td>2nd</td>
+                <td>3rd</td>
+                <td>4th</td>
+            </tr>
+        </table>
+
+        <table class="table table-striped">
+            <caption style="display: none;">This table displays Striped BS table</caption>
+            <tr>
+                <th>Header1</th>
+                <th>Header2</th>
+                <th>Header3</th>
+                <th>Header4</th>
+            </tr>
+            <tr>
+                <td>1st</td>
+                <td>2nd</td>
+                <td>3rd</td>
+                <td>4th</td>
+            </tr>
+            <tr>
+                <td>1st</td>
+                <td>2nd</td>
+                <td>3rd</td>
+                <td>4th</td>
+            </tr>
+            <tr>
+                <td>1st</td>
+                <td>2nd</td>
+                <td>3rd</td>
+                <td>4th</td>
+            </tr>
+        </table>
+
+        <table class=" table table-hover">
+            <caption style="display: none;">This table displays Hover BS table</caption>
+            <tr>
+                <th>Header1</th>
+                <th>Header2</th>
+                <th>Header3</th>
+                <th>Header4</th>
+            </tr>
+            <tr>
+                <td>1st</td>
+                <td>2nd</td>
+                <td>3rd</td>
+                <td>4th</td>
+            </tr>
+        </table>
+
+        <table class=" table table-dark">
+            <caption style="display: none;">This table displays dark BS table</caption>
+            <tr>
+                <th>Header1</th>
+                <th>Header2</th>
+                <th>Header3</th>
+                <th>Header4</th>
+            </tr>
+            <tr>
+                <td>1st</td>
+                <td>2nd</td>
+                <td>3rd</td>
+                <td>4th</td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section id="buttonDemo">
+        <div class="container bg-dark text-white text-center my-3">
+            <p class="display-6">Buttons Demo</p>
+        </div>
+
+
+        <div class="container-fluid">
+            
+            <div class="row m-3 alert-danger">
+                <div class="col">
+                    <button class="btn btn-primary">Button</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-outline-danger">Outlined Button</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary btn-lg">Large Button</button>
+                    <button class="btn btn-warning btn-sm">Small Button</button>
+                </div>
+                <div class="col d-grid">
+                    <button class="btn btn-primary btn-block">Block Button</button>
+                </div>
+            </div>
+            <div class="row m-3 alert-danger">
+                <div class="col">
+                    <button class="btn btn-primary active">Active Button</button>
+                    <button class="btn btn-primary " disabled>Disabled Button</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary"><span class="spinner-border spinner-border-sm"></span> Spinner Button</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="buttonGroupDemo">
+        <div class="container bg-success text-white text-center my-3">
+            <p class="display-6">ButtonGroup Demo</p>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row m-3 alert-warning">
+                <div class="col">
+                    <div class="btn-group">
+                        <button class="btn btn-primary">Button1</button>
+                        <button class="btn btn-warning">Button2</button>
+                        <button class="btn btn-danger">Button3</button>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="btn-group-vertical">
+                        <button class="btn btn-primary">Button1</button>
+                        <button class="btn btn-primary">Button2</button>
+                        <button class="btn btn-primary">Button3</button>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="btn-group">
+                        <button class="btn btn-primary">Button1</button>
+                        <button class="btn btn-primary">Button2</button>
+                        <button class="btn btn-primary">Button3</button>
+                    </div>
+                    <div class="btn-group">
+                        <button class="btn btn-primary">Button1</button>
+                        <button class="btn btn-primary">Button2</button>
+                        <button class="btn btn-primary">Button3</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row alert-danger">
+                <div class="col">
+                    <div class="btn-group">
+                        <button class="btn btn-primary">Button1</button>
+                        <button class="btn btn-primary">Button2</button>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+                            <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Tablet</a>
+                            <a class="dropdown-item" href="#">Smartphone</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

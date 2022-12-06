@@ -1,0 +1,1 @@
+1. Learned about basic data types in typescript such as number, string and boolean.

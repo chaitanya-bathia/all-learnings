@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
+    <script src="../../../../node_modules/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/7b16ecc569.js" crossorigin="anonymous"></script> -->
+    <script src="../../../../node_modules/jquery//dist/jquery.min.js"></script>
+    <title>Login | Mr. Util</title>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-light bg-warning d-flex flex-row justify-content-center">
+        
+        <span class="h2">Mr. Util</span>
+
+        
+    </nav>
+    <div id="sidePanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSidePanel()">&times;</a>
+        <a href="#"> <span class="fa-regular fa-clock"></span> Clock</a>
+        <a href="#"><span class="fa fa-calculator"></span> Calculator</a>
+        <a href="#"><span class="fa fa-list-check"></span> To-Do List</a>
+    </div>
+
+    <div class="container  my-5 ">
+        <div class="row">
+            <div class="col-4 mx-auto text-center bg-light">
+                <h2>Login</h2><br>
+
+                <input type="text" class="form-control" name="username" id="txtusername" placeholder="Username."><br>
+                <input type="password" class="form-control" name="password" id="txtpassword" placeholder="Password"><br>
+                
+                <a class="btn col-12 border-3 border-dark mb-3" id="btnLogin" onclick="validateLogin()">Login</a>
+            </div>
+        </div>
+    </div>
+
+<script src="../js/login.js"></script>
+</body>
+
+</html>

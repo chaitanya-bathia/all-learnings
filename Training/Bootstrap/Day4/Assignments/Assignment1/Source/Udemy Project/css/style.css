@@ -1,0 +1,98 @@
+.navbar
+{
+    box-shadow: 0 2px 5px rgba(19, 19, 53, 0.6);
+}
+
+.headerDiv
+{
+    background: url("../assets/img/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 400px;
+    background-position-x:center;
+    background-position-y: center;
+}
+
+.intro
+{
+    font-family: 'DM Serif Display', serif;
+}
+
+.courseList .btn
+{
+    padding: 5px;
+}
+
+.courseList .btn:hover
+{
+    color:black !important;
+}
+
+.courseCard
+{
+    padding: 0;
+}
+
+.exploreButton
+{
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.blackButton
+{
+    background-color: black;
+    border-radius: 0;
+    color: white;
+}
+
+.topicLink
+{
+    color: rgba(67, 21, 128, 0.705);
+    text-decoration: underline;
+}
+
+#footer
+{
+    background-color: rgb(8, 8, 8);
+}
+
+#footer li
+{
+    list-style-type: none;
+    font-size: smaller;
+}
+
+#footerImg
+{
+    width: 30% !important;
+}
+
+@media (max-width:769px)
+{
+    #udemyBusiness
+    {
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    
+
+    #ubiz
+    {
+        width: 30%;
+    }
+    #bizButton, #findButton
+    {
+        font-size: xx-small;
+    }
+}
+
+@media (max-width: 576px)
+{
+    .headerDiv
+    {
+        background: none;
+    }
+}

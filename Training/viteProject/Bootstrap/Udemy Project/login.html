@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/loginstyle.css">
+
+    <title>Login | Udemy</title>
+</head>
+<body>
+
+
+<!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#"><img src="./assets/img/logo-udemy.png" alt="" class="img-fluid"></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Categories
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Development <em class="fa fa-angle-right"></em></a>
+            <a class="dropdown-item" href="#">Business <em class="fa fa-angle-right"></em></a>
+            <a class="dropdown-item" href="#">Finance & Accounting <em class="fa fa-angle-right"></em></a>
+            <a class="dropdown-item" href="#">IT & Software <em class="fa fa-angle-right"></em></a>
+            <a class="dropdown-item" href="#">Office Productivity <em class="fa fa-angle-right"></em></a>
+            <a class="dropdown-item" href="#">Personal Development <em class="fa fa-angle-right"></em></a>
+            <a class="dropdown-item" href="#">Design <em class="fa fa-angle-right"></em></a>
+            <a class="dropdown-item" href="#">Marketing <em class="fa fa-angle-right"></em></a>
+            <a class="dropdown-item" href="#">Lifestyle <em class="fa fa-angle-right"></em></a>
+            <a class="dropdown-item" href="#">Photography & Video <em class="fa fa-angle-right"></em></a>
+            <a class="dropdown-item" href="#">Health & Fitness <em class="fa fa-angle-right"></em></a>
+            <a class="dropdown-item" href="#">Music <em class="fa fa-angle-right"></em></a>
+            <a class="dropdown-item" href="#">Teaching & Academics <em class="fa fa-angle-right"></em></a>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <form class="form-inline">
+            <div class="input-group">
+              <button class="btn "><em class="fa fa-search "></em></button>
+              <input type="text" placeholder="Search." class="form-control">
+            </div>
+          </form>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-nav flex-row">
+      <a href="#" class="d-none d-xl-inline nav-link">Udemy Business</a>
+      <a href="#" class="d-none d-lg-inline nav-link">Teach On Udemy</a>
+      <button class="btn d-inline"><em class="fa fa-shopping-cart"></em></button>
+      <button class="btn d-lg-none d-inline"><em class="fa fa-search"></em></button>
+      <a class="btn exploreButton d-none d-lg-inline mx-2" href="login.html"><strong>Log In</strong></a>
+      <a class="btn d-none d-lg-inline blackButton mx-2" href="signup.html"><strong>Sign Up</strong></a>
+    </div>
+  </nav>
+
+  <!-- LOGIN SECTION -->
+
+  <section id="login" class="my-5 pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-8 mx-auto">
+          <h6 class="h6 p-3" id="login-header"><strong>Log In to Your Udemy Account!</strong></h6>
+        </div>
+      </div>
+      <div class="row my-1">
+        <div class="col-lg-4 col-md-8 mx-auto">
+          <a class="btn btn-block my-2 external-login-btn p-2 shadow text-left"><em class="fa fa-facebook"></em> Continue With Facebook</a>
+          <a class="btn btn-block my-2 external-login-btn p-2 shadow text-left"><em class="fa fa-google"></em> Continue With Google</a>
+          <a class="btn btn-block my-2 external-login-btn p-2 shadow text-left"><em class="fa fa-apple"></em> Continue With Apple</a>
+        </div>
+      </div>
+      <div class="row my-1">
+        <div class="col-lg-4 col-md-8 mx-auto">
+          <form class="form" action="index.html">
+            <div class="input-group my-2 align-items-center">
+              <span><em class="fa fa-envelope pl-2 text-muted"></em></span>
+              <input type="email" class="form-control border-0 " placeholder="Email">
+            </div>
+            <div class="input-group my-2 align-items-center">
+              <span><em class="fa fa-lock pl-2 text-muted"></em></span>
+              <input type="password" class="form-control border-0 " placeholder="Password">
+            </div>
+
+            <button class="btn btn-block login-button text-white p-3" type="submit"><strong>Log In</strong> </button>
+          </form>
+        </div>
+      </div>
+      <div class="row my-1 text-center">
+        <div class="col-lg-4 col-md-8 mx-auto">
+          or <a id="forgotPassword" href="#">Forgot Password</a>
+        </div>
+      </div>
+      <div class="row my-1 mt-3 text-center">
+        <div class="col-lg-4 col-md-8 mx-auto">
+          Don't have an account? <a id="signUpBtn" href="signup.html"><strong>Sign up</strong></a>
+        </div>
+      </div>
+      <div class="row my-1 text-center">
+        <div class="col-lg-4 col-md-8 mx-auto">
+          <a id="loginOrg" href="#"><strong>Log in with your organization</strong></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- TOP COMPANIES -->
+
+  <section id="companies">
+    <div class="container-fluid text-white text-center py-2">
+      <div class="row">
+        <div class="col align-self-center">
+          <h5 class="h5">Top companies choose Udemy Business to build in-demand career skills.</h5>
+        </div>
+        <div class="col">
+          <div class="row d-flex flex-row mx-1">
+            <img src="./assets/img/nasdaq-dark.png" alt="nasdaq" class="img-fluid p-4">
+            <img src="./assets/img/volkswagen-dark.png" alt="vw" class="img-fluid p-4">
+            <img src="./assets/img/box-dark.png" alt="box" class="img-fluid p-4">
+            <img src="./assets/img/netapp-dark.png" alt="netapp" class="img-fluid p-4">
+            <img src="./assets/img/eventbrite-dark.png" alt="eventbrite" class="img-fluid p-4">
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+
+  <section id="footer">
+    <footer>
+      <div class="container-fluid py-4">
+        <div class="row">
+          <div class="col-md-2">
+            <ul>
+              <li class="p-1"><a href="#" class="text-white">Udemy Business</a></li>
+              <li class="p-1"><a href="#" class="text-white">Teach on Udemy</a></li>
+              <li class="p-1"><a href="#" class="text-white">Get the app</a></li>
+              <li class="p-1"><a href="#" class="text-white">About us</a></li>
+              <li class="p-1"><a href="#" class="text-white">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul>
+              <li class="p-1"><a href="#" class="text-white">Careers</a></li>
+              <li class="p-1"><a href="#" class="text-white">Blog</a></li>
+              <li class="p-1"><a href="#" class="text-white">Help and Support</a></li>
+              <li class="p-1"><a href="#" class="text-white">Affiliate</a></li>
+              <li class="p-1"><a href="#" class="text-white">Investors</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li class="p-1"><a href="#" class="text-white">Terms</a></li>
+              <li class="p-1"><a href="#" class="text-white">Privacy policy</a></li>
+              <li class="p-1"><a href="#" class="text-white">Cookie Settings</a></li>
+              <li class="p-1"><a href="#" class="text-white">Sitemap</a></li>
+              <li class="p-1"><a href="#" class="text-white">Accessiblility statement</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 text-left">
+            <img id="footerImg" src="./assets/img/logo-udemy-inverted.png" alt="footerlogo" class="img-fluid pl-5">
+          </div>
+          <div class="col-md-6 text-right align-self-center text-white align-self-center">
+            <p>&copy; 2022 Udemy, Inc.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/popper.js/dist/popper.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

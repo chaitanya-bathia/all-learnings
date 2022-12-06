@@ -1,0 +1,120 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col bg-dark text-white text-center">
+            <h2>Employee Form</h2>
+        </div>
+    </div>
+    <div class="row text-center justify-content-center">
+        <div class="col-2 my-2">
+            <label for="empID">Employee ID</label>
+        </div>
+        <div class="col-4 my-2">
+            <input type="number" id="empID" class="form-control" placeholder="Employee ID here." [(ngModel)]="empID">
+        </div>
+    </div>
+
+    <div class="row text-center justify-content-center">
+        <div class="col-2 my-2">
+            <label for="empName">Employee Name</label>
+        </div>
+        <div class="col-4 my-2">
+            <input type="text" id="empName" class="form-control" placeholder="Employee Name here." [(ngModel)]="empName">
+        </div>
+    </div>
+
+    <div class="row text-center justify-content-center">
+        <div class="col-2 my-2">
+            <label for="empAddress">Employee Address</label>
+        </div>
+        <div class="col-4 my-2">
+            <textarea id="empAddress" class="form-control" placeholder="Employee Address here." [(ngModel)]="empAddress"></textarea>
+        </div>
+    </div>
+
+    <div class="row text-center justify-content-center">
+        <div class="col-2 my-2">
+            <label for="empGender">Gender</label>
+        </div>
+        <div class="col-4 my-2 text-justify">
+            <input type="radio" name="gender" id="genMale" value="Male" [(ngModel)]="empGender">
+            <label for="genMale">Male</label><br>
+
+            <input type="radio" name="gender" id="genFemale" value="Female" [(ngModel)]="empGender">
+            <label for="genFemale">Female</label><br>
+
+            <input type="radio" name="gender" id="genOther" value="Others" [(ngModel)]="empGender">
+            <label for="genOther">Others</label>
+            <br>
+        </div>
+    </div>
+
+
+    <div class="row text-center justify-content-center">
+        <div class="col-2 my-2">
+            <label for="empDOJ">Date of Joining</label>
+        </div>
+        <div class="col-4 my-2">
+            <input type="date" id="empDOJ" class="form-control" placeholder="Joining Date here." [(ngModel)]="empDOJ">
+        </div>
+    </div>
+    
+    <div class="row text-center justify-content-center">
+        <div class="col-2 my-2">
+            <label for="empHobbies">Hobbies</label>
+        </div>
+        <div class="col-4 my-2">
+            <label for="empHobby">Hobbies</label>
+            <input type="text" id="empHobby" placeholder="Hobbies here." [(ngModel)]="empHobby">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4 mx-auto text-center">
+            <br><br><button class="btn btn-dark text-white" (click)="submit()">Submit</button>
+            <button class="btn btn-success" (click)="filter()">Filter New Joiners</button>
+        </div>
+    </div>
+
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <table class="table table-striped">
+                <caption hidden> Table</caption>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Gender</th>
+                        <th>Joining date</th>
+                        <th>Hobbies</th>
+                    </tr>
+                </thead>
+                <tbody *ngIf="filterval==false; else elseBlock">
+                    <tr *ngFor="let emp of arrEmployee">
+                        <td>{{emp.employeeID}}</td>
+                        <td>{{emp.employeeName}}</td>
+                        <td>{{emp.employeeAddress}}</td>
+                        <td>{{emp.employeeGender}}</td>
+                        <td>{{emp.employeeDOJ}}</td>
+                        <td>{{emp.employeeHobbies}}</td>
+                    </tr>
+                </tbody>
+                <ng-template #elseBlock>
+                    <tbody>
+                    <tr *ngFor="let emp of filteredArray">
+                        <td>{{emp.employeeID}}</td>
+                        <td>{{emp.employeeName}}</td>
+                        <td>{{emp.employeeAddress}}</td>
+                        <td>{{emp.employeeGender}}</td>
+                        <td>{{emp.employeeDOJ}}</td>
+                        <td>{{emp.employeeHobbies}}</td>
+                    </tr>
+                    </tbody>
+                </ng-template>
+            </table>
+        </div>
+    </div>
+</div>

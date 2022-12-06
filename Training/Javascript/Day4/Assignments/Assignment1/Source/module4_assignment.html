@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Module 4 Assignment</title>
+</head>
+<body>
+    <h1 style="text-align: center;">University of Mumbai</h1>
+    <h2>Exam</h2>    
+    <form id="testform" style="border: 2px solid black; border-radius: 5px; padding: 5px;">
+        <label for="q1">What is full form of HTML?</label>
+        <div id="q1">
+            <input type="radio" name="q1_options" id="q1_option1"> Hyper Technical Marking Language
+            <input type="radio" name="q1_options" id="q1_option2"> Hyper Text Markup Language
+            <input type="radio" name="q1_options" id="q1_option3"> High Text Marking Language
+        </div><br>
+        <label for="q2">What is CSS used for?</label>
+        <div id="q2">
+            <input type="radio" name="q2_options" id="q2_option1"> Styling
+            <input type="radio" name="q2_options" id="q2_option2"> Responsiveness
+            <input type="radio" name="q2_options" id="q2_option3"> Structuring
+        </div><br>
+
+        <label for="q3">What is JavaScript?</label>
+        <div id="q3">
+            <input type="radio" name="q2_options" id="q2_option1"> Part of JAVA
+            <input type="radio" name="q2_options" id="q2_option2"> Designing language
+            <input type="radio" name="q2_options" id="q2_option3"> Programming language for Web-based logic
+        </div><br>
+
+        <input type="submit" id="btnSubmit" value="Submit">
+        <button>Reset Exam</button>
+    </form>
+
+    <h3 id="message"></h3>
+
+    <script>
+        setTimeout(() => { closeForm() }, 5000);
+
+
+        function closeForm()
+        {
+            const inputArr = document.getElementsByTagName("input");
+            for (const i of inputArr) {
+                i.disabled = true;
+            }
+            alert("Exam is Over.");
+            document.getElementById("message").innerHTML = "Test Closed"   ;
+        }
+    </script>
+</body>
+</html>

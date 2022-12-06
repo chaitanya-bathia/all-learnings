@@ -1,0 +1,13 @@
+<table>
+    <caption hidden>Table</caption>
+    <thead>
+        <th scope="heading">ID</th>
+        <th scope="heading">Name</th>
+        <th scope="heading">Address</th>
+    </thead>
+    <tr *ngFor="let student of studentList">
+        <td>{{student.studentID}}</td>
+        <td>{{student.studentName}}</td>
+        <td>{{student.studentAddress}}</td>
+    </tr>
+</table>

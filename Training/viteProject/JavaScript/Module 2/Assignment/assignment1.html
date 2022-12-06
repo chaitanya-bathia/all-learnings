@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS MOdule 2 Assignment</title>
+</head>
+<body>
+
+    <form id="form1">
+        <label for="dateInput">Enter Date for Validation in MM-DD-YYYY format:</label>
+        <input type="text" id="dateInput" placeholder="MM-DD-YYYY">
+    </form>
+    
+    <button onclick="checkDate()">Click here for Date Validation.</button>
+    <h2 id="displayDate"></h2>
+    
+    <script>
+        function checkDate()
+        {
+            var input = document.getElementById("dateInput").value;
+            const check= input.split("-");
+            var month = parseInt(check[0]);
+            var date = parseInt(check[1]);
+            var year = parseInt(check[2]);
+            if(month<00 || month>12)
+            {
+                alert("Invalid Month. Try again.");
+                document.getElementById("form1").reset();
+                return;
+            }
+            else
+            {
+                if(date<01 || date>31)
+                    {
+                        alert("Invalid Date. Try again.");
+                        document.getElementById("form1").reset();
+                        return;
+                    }
+
+                else
+                {
+                    if(month==04 || month==06 || month==09 || month==11)
+                    {
+                        if(date>30)
+                        {
+                            alert("This month cannot have more than 30 days.");
+                            document.getElementById("form1").reset();
+                            return;
+                        }
+                    }
+                    else if(month==02)
+                    {
+                        if(date>29)
+                        {
+                            alert("February cannot have more than 29 days.");
+                            document.getElementById("form1").reset();
+                            return;
+                        }
+                        else if(year%4!=0 && date==29)
+                        {
+                            alert("February cannot have 29 days in a non-leap Year.");
+                            document.getElementById("form1").reset();
+                            return;
+                        }
+                    }
+                }
+            }
+            document.getElementById("displayDate").innerHTML = input + " is a valid Date.";
+        }
+    </script>
+</body>
+</html>

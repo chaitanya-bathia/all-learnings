@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4 Practice 3</title>
+</head>
+<body>
+
+    <h1>If input is a string, output will be reverse of string.</h1>
+    <button onclick="checkString()">Click here to Check input.</button>
+    <h2 id="inputData"></h2>
+    <h2 id="outputData"></h2>
+    <script>
+        function checkString()
+        {
+            var input = prompt("Enter your input:");
+            var output= "";
+            let testPattern = /[A-Z|a-z]/;
+
+            document.getElementById("inputData").innerHTML = input;
+
+            let newPromise = new Promise(function(myResolve,myReject)
+            {
+                if(testPattern.test(input)==true)
+                {
+                    
+                    for (let i = input.length-1; i >= 0; i--) {
+                        output+=input[i];
+                    }
+                    setTimeout(() => { myResolve(output); }, 500);
+                }
+                else
+                {
+                    output=input;
+                    setTimeout(() => { myReject(output); }, 500); 
+                }
+            });
+
+            newPromise.then
+            (
+                function myResolve(output)
+                {
+                    document.getElementById("outputData").innerHTML = output;
+                },
+                function myReject(output)
+                {
+                    document.getElementById("outputData").innerHTML = output;
+                }
+            );
+
+
+        }
+    </script>
+</body>
+</html>

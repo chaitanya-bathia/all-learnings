@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2 Practice</title>
+</head>
+<body>
+    
+    <button id="checkbtn" onclick="check()">Check String</button>
+    <h3 id="display"></h3>
+    <p id="message"></p>
+
+    <script>
+        function check()
+        {
+            var string= window.prompt("Enter your string:");
+        
+            document.getElementById("display").innerHTML = "String is: "+ string;
+            if(string.length==0)
+            {
+                document.getElementById("message").innerHTML = "Entered string is empty.";
+            }
+            else
+            {
+                document.getElementById("message").innerHTML = "Entered string is not empty.";
+            }
+        }
+    </script>
+</body>
+</html>

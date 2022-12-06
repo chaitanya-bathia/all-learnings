@@ -1,0 +1,14 @@
+D:\Radix Training\2437-Chaitanya.B-Feb22\.NetCore\Day2\Assignments\Assignment1\Source\Day2Assignment1\bin\Debug\netcoreapp3.1\Day2Assignment1.exe
+D:\Radix Training\2437-Chaitanya.B-Feb22\.NetCore\Day2\Assignments\Assignment1\Source\Day2Assignment1\bin\Debug\netcoreapp3.1\Day2Assignment1.deps.json
+D:\Radix Training\2437-Chaitanya.B-Feb22\.NetCore\Day2\Assignments\Assignment1\Source\Day2Assignment1\bin\Debug\netcoreapp3.1\Day2Assignment1.runtimeconfig.json
+D:\Radix Training\2437-Chaitanya.B-Feb22\.NetCore\Day2\Assignments\Assignment1\Source\Day2Assignment1\bin\Debug\netcoreapp3.1\Day2Assignment1.runtimeconfig.dev.json
+D:\Radix Training\2437-Chaitanya.B-Feb22\.NetCore\Day2\Assignments\Assignment1\Source\Day2Assignment1\bin\Debug\netcoreapp3.1\Day2Assignment1.dll
+D:\Radix Training\2437-Chaitanya.B-Feb22\.NetCore\Day2\Assignments\Assignment1\Source\Day2Assignment1\bin\Debug\netcoreapp3.1\Day2Assignment1.pdb
+D:\Radix Training\2437-Chaitanya.B-Feb22\.NetCore\Day2\Assignments\Assignment1\Source\Day2Assignment1\obj\Debug\netcoreapp3.1\Day2Assignment1.csproj.AssemblyReference.cache
+D:\Radix Training\2437-Chaitanya.B-Feb22\.NetCore\Day2\Assignments\Assignment1\Source\Day2Assignment1\obj\Debug\netcoreapp3.1\Day2Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Radix Training\2437-Chaitanya.B-Feb22\.NetCore\Day2\Assignments\Assignment1\Source\Day2Assignment1\obj\Debug\netcoreapp3.1\Day2Assignment1.AssemblyInfoInputs.cache
+D:\Radix Training\2437-Chaitanya.B-Feb22\.NetCore\Day2\Assignments\Assignment1\Source\Day2Assignment1\obj\Debug\netcoreapp3.1\Day2Assignment1.AssemblyInfo.cs
+D:\Radix Training\2437-Chaitanya.B-Feb22\.NetCore\Day2\Assignments\Assignment1\Source\Day2Assignment1\obj\Debug\netcoreapp3.1\Day2Assignment1.csproj.CoreCompileInputs.cache
+D:\Radix Training\2437-Chaitanya.B-Feb22\.NetCore\Day2\Assignments\Assignment1\Source\Day2Assignment1\obj\Debug\netcoreapp3.1\Day2Assignment1.dll
+D:\Radix Training\2437-Chaitanya.B-Feb22\.NetCore\Day2\Assignments\Assignment1\Source\Day2Assignment1\obj\Debug\netcoreapp3.1\Day2Assignment1.pdb
+D:\Radix Training\2437-Chaitanya.B-Feb22\.NetCore\Day2\Assignments\Assignment1\Source\Day2Assignment1\obj\Debug\netcoreapp3.1\Day2Assignment1.genruntimeconfig.cache

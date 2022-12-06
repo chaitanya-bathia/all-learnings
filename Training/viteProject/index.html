@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="indexStyle.css">
+    <script src="./events.js"></script>
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="topbar">
+      <div>
+        <button class="topbar-button" onclick="displayHTML()">HTML</button>
+        <button class="topbar-button" onclick="displayCSS()">CSS</button>
+        <a style="text-decoration: none; font-family: sans-serif;" class="topbar-button" href="./JavaScript/index/index.html">JavaScript</a>
+        <a style="text-decoration: none; font-family: sans-serif;" class="topbar-button" href="./Bootstrap/index/new-bs-index.html">Bootstrap</a>
+        <a style="text-decoration: none; font-family: sans-serif;" class="topbar-button" href="./Tailwind/Tailwind_Index/tailwind-index.html">TailwindCSS</a>
+        <a style="text-decoration: none; font-family: sans-serif;" class="topbar-button" href="./jQuery/index/index.html">jQuery</a>
+        <button class="topbar-button">.NET</button>
+      </div>
+    </div>
+    <div id="mainSection">
+      <div id="sidebar">
+        <div id=htmlContent>HTML Content
+          <div class="modules">
+            
+            <button id="html-module1-btn" class="sidebar-button" onclick="display_html_module1()">Module1</button>
+            <div id="html-module1">
+              <button class="sub-button" id="html-1-practice" onclick="display_html1_practice()">Practice</button>
+              <div id="html1-practice">
+                <button class="practice-button" onclick="html1_practice1()">Practice1</button>
+                <button class="practice-button" onclick="html1_practice2()">Practice2</button>
+                <button class="practice-button" onclick="html1_practice3()">Practice3</button>
+                <button class="practice-button" onclick="html1_practice4()">Practice4</button>
+                <button class="practice-button" onclick="html1_practice5()">Practice5</button>
+                <button class="practice-button" onclick="html1_practice6()">Practice6</button>
+              </div>
+              <button class="sub-button" id="html-1-assignment" onclick="display_html1_assignment()">Assignment</button>
+              <div id="html1-assignment">
+                <button class="assignment-button" onclick="html1_assignment1()">Assignment1</button>
+              </div>
+            </div>
+
+            <button id="html-module2-btn" class="sidebar-button" onclick="display_html_module2()">Module2</button>
+            <div id="html-module2">
+              <button class="sub-button" id="html-2-practice" onclick="display_html2_practice()">Practice</button>
+              <button class="sub-button" id="html-2-assignment" onclick="display_html2_assignment()">Assignment</button>
+              <div id="html2-assignment">
+                <button class="assignment-button" onclick="html2_assignment1()">Assignment1</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div id="cssContent">CSS Content
+          <div class="modules">
+            
+            <button id="css-module1-btn" class="sidebar-button" onclick="display_css_module1()">Module1</button>
+            <div id="css-module1">
+              <button class="sub-button" id="css-1-practice" onclick="display_css1_practice()">Practice</button>
+              <div id="css1-practice">
+                <button class="practice-button" onclick="css1_practice1()">Practice1</button>
+                <button class="practice-button" onclick="css1_practice2()">Practice2</button>
+                <button class="practice-button" onclick="css1_practice3()">Practice3</button>
+                <button class="practice-button" onclick="css1_practice4()">Practice4</button>
+                <button class="practice-button" onclick="css1_practice5()">Practice5</button>
+              </div>
+              <button class="sub-button" id="css-1-assignment" onclick="display_css1_assignment()">Assignment</button>
+              <div id="css1-assignment">
+                <button class="assignment-button" onclick="css1_assignment1()">Assignment1</button>
+              </div>
+            </div>
+
+            <button id="css-module2-btn" class="sidebar-button" onclick="display_css_module2()">Module2</button>
+            <div id="css-module2">
+              <button class="sub-button" id="css-2-practice" onclick="display_css2_practice()">Practice</button>
+              <div id="css2-practice">
+                <button class="practice-button" onclick="css2_practice1()">Practice1</button>
+                <button class="practice-button" onclick="css2_practice2()">Practice2</button>
+                <button class="practice-button" onclick="css2_practice3()">Practice3</button>
+            </div>
+              <button class="sub-button" id="css-2-assignment" onclick="display_css2_assignment()">Assignment</button>
+              <div id="css2-assignment">
+                <button class="assignment-button" onclick="css2_assignment1()">Assignment1</button>
+              </div>
+            </div>
+
+            <button id="css-module3-btn" class="sidebar-button" onclick="display_css_module3()">Module3</button>
+            <div id="css-module3">
+              <button class="sub-button" id="css-3-practice" onclick="display_css3_practice()">Practice</button>
+              <div id="css3-practice">
+                <button class="practice-button" onclick="css3_practice1()">Practice1</button>
+                <button class="practice-button" onclick="css3_practice2()">Practice2</button>
+                <button class="practice-button" onclick="css3_practice3()">Practice3</button>
+              </div>
+              <button class="sub-button" id="css-3-assignment" onclick="display_css3_assignment()">Assignment</button>
+              <div id="css3-assignment">
+                <button class="assignment-button" onclick="css3_assignment1()">Assignment1</button>
+              </div>
+            </div>
+
+
+            <button id="css-module4-btn" class="sidebar-button" onclick="display_css_module4()">Module4</button>
+            <div id="css-module4">
+              <button class="sub-button" id="css-4-practice" onclick="display_css4_practice()">Practice</button>
+              <div id="css4-practice">
+                <button class="practice-button" onclick="css4_practice1()">Practice1</button>
+                <button class="practice-button" onclick="css4_practice2()">Practice2</button>
+                <button class="practice-button" onclick="css4_practice3()">Practice3</button>
+              </div>
+              <button class="sub-button" id="css-4-assignment" onclick="display_css4_assignment()">Assignment</button>
+              <div id="css4-assignment">
+                <button class="assignment-button" onclick="css4_assignment1()">Assignment1</button>
+                <button class="assignment-button" onclick="css4_assignment2()">Assignment2</button>
+              </div>
+            </div>
+
+
+            <button id="css-extra-btn" class="sidebar-button" onclick="display_css_extra()">Extra Task</button>
+            <div id="css-extra">
+              <button class="sub-button" id="css-extra-assignment" onclick="display_css_extra_assignment()">Assignment</button>
+              <div id="css-extra-assignment-div">
+                <button class="assignment-button" onclick="css_extra_assignment1()">Assignment1</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div id="mainContent">
+
+      </div>
+    </div>
+  </body>
+</html>

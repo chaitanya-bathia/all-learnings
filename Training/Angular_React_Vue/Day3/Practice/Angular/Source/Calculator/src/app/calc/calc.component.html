@@ -1,0 +1,10 @@
+<label for="txtNum1" >Number 1: </label>
+<input type="number" id="txtNum1" class="form-control" [(ngModel)]="num1"><br><br>
+<label for="txtNum2">Number 2: </label>
+<input type="number" id="txtNum2" class="form-control" [(ngModel)]="num2"><br><br>
+
+<button id="btnAdd" class="btn btn-primary" (click)="add()">+</button>
+<button id="btnSubtract" class="btn btn-secondary" (click)="subtract()">-</button>
+<button id="btnMultiply" class="btn btn-warning" (click)="multiply()">x</button>
+
+<p>{{ans}}</p>

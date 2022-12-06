@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 5 Practice 1</title>
+</head>
+<body>
+    <h2>Area of circle using function Expression</h2>
+    <h3 id="result"></h3>
+    <script>
+        const pi = 3.14;
+        var radius = parseInt(prompt("Enter Radius of circle: "));
+        var area = function(pi, radius) {return pi * radius * radius};
+        document.getElementById("result").innerHTML = area(pi,radius);
+    </script>
+</body>
+</html>

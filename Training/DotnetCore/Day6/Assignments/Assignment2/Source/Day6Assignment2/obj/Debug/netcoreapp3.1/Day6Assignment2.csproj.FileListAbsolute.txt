@@ -1,0 +1,13 @@
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment2\Source\Day6Assignment2\bin\Debug\netcoreapp3.1\Day6Assignment2.exe
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment2\Source\Day6Assignment2\bin\Debug\netcoreapp3.1\Day6Assignment2.deps.json
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment2\Source\Day6Assignment2\bin\Debug\netcoreapp3.1\Day6Assignment2.runtimeconfig.json
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment2\Source\Day6Assignment2\bin\Debug\netcoreapp3.1\Day6Assignment2.runtimeconfig.dev.json
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment2\Source\Day6Assignment2\bin\Debug\netcoreapp3.1\Day6Assignment2.dll
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment2\Source\Day6Assignment2\bin\Debug\netcoreapp3.1\Day6Assignment2.pdb
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment2\Source\Day6Assignment2\obj\Debug\netcoreapp3.1\Day6Assignment2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment2\Source\Day6Assignment2\obj\Debug\netcoreapp3.1\Day6Assignment2.AssemblyInfoInputs.cache
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment2\Source\Day6Assignment2\obj\Debug\netcoreapp3.1\Day6Assignment2.AssemblyInfo.cs
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment2\Source\Day6Assignment2\obj\Debug\netcoreapp3.1\Day6Assignment2.csproj.CoreCompileInputs.cache
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment2\Source\Day6Assignment2\obj\Debug\netcoreapp3.1\Day6Assignment2.dll
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment2\Source\Day6Assignment2\obj\Debug\netcoreapp3.1\Day6Assignment2.pdb
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day6\Assignments\Assignment2\Source\Day6Assignment2\obj\Debug\netcoreapp3.1\Day6Assignment2.genruntimeconfig.cache

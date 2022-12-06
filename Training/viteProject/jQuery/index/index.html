@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./index.js"></script>
+    <title>jQuery Index</title>
+</head>
+
+<body class="bg-light">
+    <div id="app"></div>
+    <div id="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <a class="btn btn-dark" href="../../index.html">Go back</a>
+                </div>
+                <div class="col-10">
+                    <p class="h2 text-white text-center">jQuery Index</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 mr-1 bg-secondary" id="js-sidebar">
+
+                <!-- Module 1 -->
+                <button class="btn btn-primary my-1 d-block" onclick="display_jquery_module1()">Module1</button>
+                <div id="jquery-module1">
+                    <button class="btn btn-warning my-1 mx-3" onclick="jquery1_practicelist()">Practice</button>
+                    <div id="jquery1-practicelist">
+                        <button class="btn btn-info my-1 mx-4" onclick="jquery1_practice1()">Practice 1</button>
+                    </div>
+                    <button class="btn btn-warning my-1 mx-3" onclick="jquery1_assignmentlist()">Assignment</button>
+                    <div id="jquery1-assignmentlist">
+                        <button class="btn btn-info my-1 mx-4" onclick="jquery1_assignment1()">Assignment 1</button>
+                    </div>
+                </div>
+
+                <!-- Module 2 -->
+                <button class="btn btn-primary my-1 d-block" onclick="display_jquery_module2()">Module2</button>
+                <div id="jquery-module2">
+                    <button class="btn btn-warning my-1 mx-3" onclick="jquery2_practicelist()">Practice</button>
+                    <div id="jquery2-practicelist">
+                        <button class="btn btn-info my-1 mx-4" onclick="jquery2_practice1()">Practice 1</button>
+                    </div>
+                    <button class="btn btn-warning my-1 mx-3" onclick="jquery2_assignmentlist()">Assignment</button>
+                    <div id="jquery2-assignmentlist">
+                        <button class="btn btn-info my-1 mx-4" onclick="jquery2_assignment1()">Assignment 1</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-10 ml-1" id="jquery-mainSection"></div>
+        </div>
+    </div>
+    <script src="../Module 1/Practice/module1_practice1.html"></script>
+</body>
+
+</html>

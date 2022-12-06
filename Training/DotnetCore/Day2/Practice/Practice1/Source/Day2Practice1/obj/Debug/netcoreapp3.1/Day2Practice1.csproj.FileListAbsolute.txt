@@ -1,0 +1,14 @@
+D:\Radix Training\2437-Chaitanya.B-Feb22\Day2Practice1\bin\Debug\netcoreapp3.1\Day2Practice1.exe
+D:\Radix Training\2437-Chaitanya.B-Feb22\Day2Practice1\bin\Debug\netcoreapp3.1\Day2Practice1.deps.json
+D:\Radix Training\2437-Chaitanya.B-Feb22\Day2Practice1\bin\Debug\netcoreapp3.1\Day2Practice1.runtimeconfig.json
+D:\Radix Training\2437-Chaitanya.B-Feb22\Day2Practice1\bin\Debug\netcoreapp3.1\Day2Practice1.runtimeconfig.dev.json
+D:\Radix Training\2437-Chaitanya.B-Feb22\Day2Practice1\bin\Debug\netcoreapp3.1\Day2Practice1.dll
+D:\Radix Training\2437-Chaitanya.B-Feb22\Day2Practice1\bin\Debug\netcoreapp3.1\Day2Practice1.pdb
+D:\Radix Training\2437-Chaitanya.B-Feb22\Day2Practice1\obj\Debug\netcoreapp3.1\Day2Practice1.csproj.AssemblyReference.cache
+D:\Radix Training\2437-Chaitanya.B-Feb22\Day2Practice1\obj\Debug\netcoreapp3.1\Day2Practice1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Radix Training\2437-Chaitanya.B-Feb22\Day2Practice1\obj\Debug\netcoreapp3.1\Day2Practice1.AssemblyInfoInputs.cache
+D:\Radix Training\2437-Chaitanya.B-Feb22\Day2Practice1\obj\Debug\netcoreapp3.1\Day2Practice1.AssemblyInfo.cs
+D:\Radix Training\2437-Chaitanya.B-Feb22\Day2Practice1\obj\Debug\netcoreapp3.1\Day2Practice1.csproj.CoreCompileInputs.cache
+D:\Radix Training\2437-Chaitanya.B-Feb22\Day2Practice1\obj\Debug\netcoreapp3.1\Day2Practice1.dll
+D:\Radix Training\2437-Chaitanya.B-Feb22\Day2Practice1\obj\Debug\netcoreapp3.1\Day2Practice1.pdb
+D:\Radix Training\2437-Chaitanya.B-Feb22\Day2Practice1\obj\Debug\netcoreapp3.1\Day2Practice1.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col bg-dark text-center text-white">
+            <h1>Greater of two numbers</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4 mx-auto my-2">
+            <input class="form-control" type="number" [(ngModel)]="num1">
+            <input class="form-control" type="number" [(ngModel)]="num2">
+
+            <p  *ngIf="num1>num2; else elseBlock">{{num1}} is greater</p>
+            <ng-template #elseBlock>{{num2}} is greater</ng-template>
+        </div>
+    </div>
+</div>

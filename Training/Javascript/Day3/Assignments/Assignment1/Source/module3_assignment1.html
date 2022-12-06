@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Module3 Assignment 1</title>
+</head>
+<body>
+
+    <form id="form1">
+        <label for="empID">Employee ID:</label>
+        <input type="text" id="empID" placeholder="Employee ID here" ><br>
+
+        <label for="empName">Employee Name:</label>
+        <input type="text" id="empName" placeholder="Employeee Name here" ><br>
+
+        <label for="empAge">Age:</label>
+        <input type="number" id="empAge" placeholder="Age here" min="20" ><br>
+
+
+        <label for="genderDiv">Gender:</label>
+        <span id="genderDiv">
+            <input type="radio" name="gender" id="genderMale" required> Male
+            <input type="radio" name="gender" id="genderFemale"> Female
+            <input type="radio" name="gender" id="genderOther"> Other
+        </span><br>
+
+        <label for="ddlDesignation">Designation:</label>
+        <select name="designation" id="ddlDesignation">
+            <option value="select">Select Designation</option>
+            <option value="Jr. Developer">Jr. Developer</option>
+            <option value="Sr. Developer">Sr. Developer</option>
+            <option value="Team Lead">Team Lead</option>
+            <option value="Project Lead">Project Lead</option>
+            <option value="Jr. Manager">Jr. Manager</option>
+            <option value="Sr. Manager">Sr. Manager</option>
+            <option value="HR">HR</option>
+        </select><br>
+
+
+        <label for="salary">Salary:</label>
+        <input type="number" name="salary" id="salary" placeholder="Salary Here" step="1000" min="15000"><br>
+
+        <label for="ddlLocation">Location:</label>
+        <select name="location" id="ddlLocation" >
+            <option value="select">Select Location</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+            <option value="Rajkot">Rajkot</option>
+            <option value="Jamnagar">Jamnagar</option>
+            <option value="Vadodara">Vadodara</option>
+            <option value="Surat">Surat</option>
+        </select><br>
+
+        <label for="email">Email ID:</label>
+        <input type="email" name="email" id="email" placeholder="email@example.com" ><br>
+
+        <label for="joiningDate">Date of Joining:</label>
+        <input type="text" name="joiningDate" id="joiningDate" placeholder="dd/mm/yyyy" ><br>
+
+        <label for="contact">Contact Number:</label>
+        <input type="tel" name="phone" id="contact" placeholder="Phone number here." pattern="[0-9]{10}" >
+    </form>
+
+    <button id="btnSubmit" onclick="check()">Submit</button>
+
+    <h2 id="message"></h2>
+
+
+    <script>
+        function check()
+        {
+            let idPattern = /[a-z|A-Z|0-9]{5}/;
+            let datePattern = /\d\d\/\d\d\/\d\d\d\d/;
+            if(document.getElementById("empID").value=="")
+            {
+                alert("EmployeeID is empty. Please fill it out.");
+            }
+            else
+            {
+                if(idPattern.test(document.getElementById("empID").value)==false)
+                {
+                    alert("Employee ID does not match pattern. Try again.");
+                }
+                else
+                {
+                    if(document.getElementById("empName").value=="")
+                    {
+                        alert("Employee Name is empty. Please fill it out.");
+                    }
+                    else
+                    {
+                        if(document.getElementById("empAge").value=="")
+                        {
+                            alert("Please enter age.");
+                        }
+                        else
+                        {
+                            if(document.querySelector('input[name="gender"]:checked')==null)
+                            {
+                                alert("Please select gender.");
+                            }
+                            else
+                            {
+                                if(document.getElementById("ddlDesignation").value=="select")
+                                {
+                                    alert("Please select one designation.");
+                                }
+                                else
+                                {
+                                    if(document.getElementById("salary").value=="")
+                                    {
+                                        alert("Please Enter salary.");
+                                    }
+                                    else
+                                    {
+                                        if(document.getElementById("ddlLocation").value=="select")
+                                        {
+                                            alert("Please select one Location.");
+                                        }
+                                        else
+                                        {
+                                            if(document.getElementById("email").value=="")
+                                            {
+                                                alert("Please enter Email.");
+                                            }
+                                            else
+                                            {
+                                                if(document.getElementById("joiningDate").value=="")
+                                                {
+                                                    alert("please enter date.");
+                                                }
+                                                else if(datePattern.test(document.getElementById("joiningDate").value)==false)
+                                                {
+                                                    alert("Please enter valid date format.");
+                                                }
+                                                else
+                                                {
+                                                    dateCheck();
+                                                    if(document.getElementById("contact").value=="")
+                                                    {
+                                                        alert("Please enter contact Number.");
+                                                    }
+                                                    else
+                                                    {
+                                                        document.getElementById("message").innerHTML="Your data has been submitted.";
+                                                        document.getElementById("form1").reset();
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                } 
+            }  
+        }
+
+        function dateCheck()
+        {
+            let joining= document.getElementById("joiningDate").value.split("/");
+            var date = parseInt(joining[0]);
+            var month = parseInt(joining[1]);
+            var year = parseInt(joining[2]);
+            
+            if(date<1 || date>31)
+            {
+                alert("Date cannot be less than 1 or more than 31.");
+                
+            }
+            else
+            {
+                if(month==4 || month==6 || month==9 || month==11)
+                {
+                    if(date>30)
+                    {
+                        alert("This month cannot have date more than 30.");
+                        
+                    }
+                }
+                else if(month==2)
+                {
+                    if(year%4!=0 && date==29)
+                    {
+                        alert("February cannot have date 29 in a Non-Leap Year.");
+                        
+                    }
+                    else
+                    {
+                        if(date>29)
+                        {
+                            alert("February cannot have more than 29 days.");
+                            
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

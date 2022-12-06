@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Bootstrap Resume</title>
+</head>
+<body>
+
+    <div class="container-fluid bg-primary text-center text-white">
+        <p class="h1 my-0 pb-2">Resume</p>
+    </div>
+    <div class="container-fluid">
+        <div id="accordian">
+            <div class="row">
+                <div class="col-sm-3 text-center bg-dark" id="sidebar">
+                    <img src="./images/mypic.jpg" alt="My Picture" class=" my-3 img-thumbnail rounded-circle" height="250px" width="250px">
+                    <div class="m-3 d-flex flex-column">
+                        <button type="button" class="m-3 btn btn-primary text-white" data-bs-toggle="collapse" data-bs-target="#about">About</button>
+                        <button type="button" class="m-3 btn btn-primary text-white" data-bs-toggle="collapse" data-bs-target="#education">Education</button>                
+                        <button type="button" class="m-3 btn btn-primary text-white" data-bs-toggle="collapse" data-bs-target="#projects">Projects</button>
+                    </div>
+                </div>
+                <div class="col-sm-9 items-center">
+                    <div id="about" class="collapse show" data-bs-parent="#accordian">
+                        <p class="display-1">CHAITANYA <span class="text-primary">BATHIA</span></p>
+                        <p class="h4">Career Objective:</p>
+                        <p class="h4">I am seeking an entry level position in a reputable company where I can make use of my skills, knowledge and educational experience, and be an asset to the company.</p>
+                        <p class="h5">Address: 502, Soham Plaza, Panchvati Society, Jamnagar - 361002</p>
+                        <p class="h5">Contact: +91 63535 67237, +91 94293 30018</p>
+                        <p class="h5">Email: chaitanyabathia6@gmail.com</p>
+                    </div>
+    
+                    <div id="education" class="collapse" data-bs-parent="#accordian">
+                        <table class="table table-responsive table-bordered table-hover w-100">
+                            <caption style="display: none;">This table displays Qualification</caption>
+                            <tr>
+                                <th>Course</th>
+                                <th>College/School</th>
+                                <th>CPI/Percentage</th>
+                                <th>Year of Passing</th>
+                            </tr>
+                            <tr>
+                                <td>B.E. (Computer Engineering)</td>
+                                <td>Darshan Institute of Engineering & Technology</td>
+                                <td>8.81</td>
+                                <td>2022</td>
+                            </tr>
+                            <tr>
+                                <td>HSC</td>
+                                <td>P.V. Modi High School</td>
+                                <td>61.38%</td>
+                                <td>2018</td>
+                            </tr>
+                            <tr>
+                                <td>SSC</td>
+                                <td>St. Francis High School</td>
+                                <td>89%</td>
+                                <td>2016</td>
+                            </tr>
+                        </table>
+                    </div>
+    
+                    <div id="projects" class="collapse" data-bs-parent="#accordian">
+                        <div id="accordion">
+                            <div class="card">
+                              <div class="card-header">
+                                <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                                  Single User Address Book
+                                </a>
+                              </div>
+                              <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                                <div class="card-body">
+                                    Technology: ASP.NET<br> Description: This is a project linked locally to a database, managing an address book with the feature of allowing multiple users to access the database from a UI-based admin panel from a browser in read mode. If a single user accesses the database at a time, that user can edit, delete or add new data to the database.
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="card">
+                              <div class="card-header">
+                                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                                    Single User Address book with 3-Tier architecture
+                                </a>
+                              </div>
+                              <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                                <div class="card-body">
+                                    Title: Technology: ASP.NET<br> Description: This project manages a local database address book from a UI-based admin panel from a browser in read or write mode and this project was coded using the 3-tier development architecture for ASP.NET
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="card">
+                              <div class="card-header">
+                                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                                    Car Booking/Rental System
+                                </a>
+                              </div>
+                              <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                                <div class="card-body">
+                                    Technology: ASP.NET<br>Description: This project is a static local implementation of an admin panel for a car booking/rental System, coded using 3-tier development architecture for ASP.NET. It has features for managing the administrator side of car rental company.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <video class="video" id="video" height="200" width="450" controls>
+                            <source src="./images/project.mp4">
+                            <source src="./images/project.webm">
+                            <track label="Eng" kind="captions" srclang="en" src="subtitles.vtt" default>
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="../../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

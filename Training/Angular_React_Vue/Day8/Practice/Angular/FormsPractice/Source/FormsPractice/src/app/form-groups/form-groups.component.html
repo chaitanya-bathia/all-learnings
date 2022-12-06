@@ -1,0 +1,26 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4 mx-auto">
+            <form [formGroup]="reactiveForm" (ngSubmit)="submit()">
+                <input class="form-control" type="text" placeholder="Enter Name Here." formControlName="name"><br>
+                <div formGroupName="address">
+                    <input class="form-control" type="number" placeholder="Enter Flat no." formControlName="flatNo"><br>
+                    <input class="form-control" type="text" placeholder="Enter your Area" formControlName="area"><br>
+                    <input class="form-control" type="text" placeholder="Enter your City" formControlName="city"><br>   
+                    <input class="form-control" type="text" placeholder="Enter your State" formControlName="state"><br>
+                </div>
+                <input class="form-control" type="email" placeholder="email Here" formControlName="email"><br>
+                <input class="form-control" type="tel" placeholder="Enter Phone Number" formControlName="contactNo"><br>
+                <label >Hobbies:</label>
+                <div formArrayName="hobbies">
+                    <div *ngFor="let item of getHobbies.controls; let i=index">
+                        <input type="text" class="form-control"  [formControlName]="i"  /><br>
+                    </div>
+                </div>
+                <br>
+                <button class="btn btn-success" type="submit" >Submit</button>
+                <button class="btn btn-warning" (click)="addHobby()">Add Hobby</button>
+            </form>
+        </div>
+    </div>
+</div> <br>

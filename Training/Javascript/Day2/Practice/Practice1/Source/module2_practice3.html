@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS module 3 practice 3</title>
+</head>
+<body>
+
+    <button id="btnsub" onclick="substr()">Click Here.</button>
+    <h2 id="original"></h2>
+    <h2 id="sub"></h2>
+
+    <script>
+        function substr()
+        {
+            var str = window.prompt("Enter your String: ");
+            var len = parseInt(window.prompt("Enter length of Substring: "));
+
+            document.getElementById("original").innerHTML = "String: "+ str;
+            document.getElementById("sub").innerHTML = "Substring: "+ str.substr(0,len);
+        }
+    </script>
+</body>
+</html>

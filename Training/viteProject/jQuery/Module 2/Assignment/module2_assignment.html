@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+    <title>jQuery Module 2 Assignment</title>
+</head>
+
+<body>
+
+    <table class=" table table-striped table-dark table-hover7">
+        <caption hidden>Table for API</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <p></p>
+    <script>
+        $(document).ready(function () {
+            $.getJSON("https://gorest.co.in/public/v2/users", function (data) {
+                console.log(data);
+                $.each(data,function(index,data)
+                {
+                    var {id,name,email,gender,status} = data;
+                    $("tbody").append(`<tr><td>${id}</td><td>${name}</td><td>${email}</td><td>${gender}</td><td>${status}</td></tr>`);
+                })
+            });
+        })
+    </script>
+</body>
+
+</html>

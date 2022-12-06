@@ -1,0 +1,33 @@
+<div [formGroup]="postProfile">
+  <input type="text" formControlName="id" placeholder="Post ID">
+  <input type="number" formControlName="user_id" placeholder="User ID">
+  <input type="text" formControlName="title" placeholder="Post Title">
+  <input type="text" formControlName="body" placeholder="Post Content">
+
+  <button type="submit"  (click)="postinfo()">Create</button>
+  <button type="button" (click)="updateinfo()" >update</button>
+</div>
+
+<table>
+  <caption hidden>Table</caption>
+  <thead>
+    <tr>
+      <th scope="heading">ID</th>
+      <th scope="heading">User ID</th>
+      <th scope="heading">Title</th>
+      <th scope="heading">Body</th>
+      <th scope="heading">Edit</th>
+      <th scope="heading">Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let post of posts">
+      <td>{{post.id}}</td>
+      <td>{{post.user_id}}</td>
+      <td>{{post.title}}</td>
+      <td>{{post.body}}</td>
+      <td><button (click)="editinfo(post)">Edit</button></td>
+      <td><button (click)="delete(post)">Delete</button></td>
+    </tr>
+  </tbody>
+</table>

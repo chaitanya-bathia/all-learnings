@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <input class="form-control" type="text" placeholder="username" [(ngModel)]="username" ><br>
+            <input class="form-control" type="password" placeholder="password" [(ngModel)]="password" ><br>
+            <button class="btn btn-warning" (click)="login()">Login</button><br>
+            {{msg}}
+            <br>
+
+        </div>
+    </div>
+</div>
+<div *ngIf="isLoggedin==true">
+    <button routerLink="/student">Student</button>
+    <button routerLink="/student-list">Student List</button>
+</div>
+
+<router-outlet></router-outlet>

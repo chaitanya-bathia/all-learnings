@@ -1,0 +1,12 @@
+{
+  "name": "prac2",
+  "version": "1.0.0",
+  "description": "\"Write your code here\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

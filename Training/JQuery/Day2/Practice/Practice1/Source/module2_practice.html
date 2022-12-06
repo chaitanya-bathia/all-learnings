@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+    <title>jQuery Module 2 Practice</title>
+</head>
+<body>
+    <div> 
+        <ul>
+            <li id="listItem">Test item</li>
+        </ul>
+        <span id="testSpan">Parent of this span will have yellow color</span>
+    </div><br>
+    <div id="parent"> all children of this div will have sans serif fonts
+        <h2 id="sibling1">all siblings of this h2 will have font size 20px <br>
+            <p>this is a separate p tag and all its parents will have underline</p>
+        </h2>
+        <h3 id="sibling2">sibling2</h3>
+        <h2 id="sibling3">sibling3</h2>
+    </div>
+
+
+    <script>
+        $("#testSpan").parent().css({'background':'yellow'});
+
+        $("p").parents().css({'text-decoration':'underline'});
+
+        $("#parent").children().css({'font-family':'sans-serif'});
+
+        $("#parent").find("p").css({'font-weight':'normal'});
+
+        $("h2").siblings().css({'font-size':'20px'});
+
+        $("h2").last().html("This is the last h2 of the page.");
+
+        
+    </script>
+</body>
+</html>

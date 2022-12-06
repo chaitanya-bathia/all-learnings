@@ -1,0 +1,14 @@
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day7\Practice\Practice1\Source\Day7Practice\bin\Debug\netcoreapp3.1\Day7Practice.exe
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day7\Practice\Practice1\Source\Day7Practice\bin\Debug\netcoreapp3.1\Day7Practice.deps.json
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day7\Practice\Practice1\Source\Day7Practice\bin\Debug\netcoreapp3.1\Day7Practice.runtimeconfig.json
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day7\Practice\Practice1\Source\Day7Practice\bin\Debug\netcoreapp3.1\Day7Practice.runtimeconfig.dev.json
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day7\Practice\Practice1\Source\Day7Practice\bin\Debug\netcoreapp3.1\Day7Practice.dll
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day7\Practice\Practice1\Source\Day7Practice\bin\Debug\netcoreapp3.1\Day7Practice.pdb
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day7\Practice\Practice1\Source\Day7Practice\obj\Debug\netcoreapp3.1\Day7Practice.csproj.AssemblyReference.cache
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day7\Practice\Practice1\Source\Day7Practice\obj\Debug\netcoreapp3.1\Day7Practice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day7\Practice\Practice1\Source\Day7Practice\obj\Debug\netcoreapp3.1\Day7Practice.AssemblyInfoInputs.cache
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day7\Practice\Practice1\Source\Day7Practice\obj\Debug\netcoreapp3.1\Day7Practice.AssemblyInfo.cs
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day7\Practice\Practice1\Source\Day7Practice\obj\Debug\netcoreapp3.1\Day7Practice.csproj.CoreCompileInputs.cache
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day7\Practice\Practice1\Source\Day7Practice\obj\Debug\netcoreapp3.1\Day7Practice.dll
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day7\Practice\Practice1\Source\Day7Practice\obj\Debug\netcoreapp3.1\Day7Practice.pdb
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day7\Practice\Practice1\Source\Day7Practice\obj\Debug\netcoreapp3.1\Day7Practice.genruntimeconfig.cache

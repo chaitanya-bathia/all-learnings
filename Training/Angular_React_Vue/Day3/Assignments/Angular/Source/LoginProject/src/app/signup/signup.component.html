@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col text-center bg-primary">
+            <h2>Sign Up</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4 mx-auto">
+            <input type="text" class="form-control" placeholder="Enter Name Here." [(ngModel)]="name"> <br>
+            <textarea class="form-control" placeholder="Enter Address Here." [(ngModel)]="address"></textarea><br>
+            <input type="text" class="form-control" placeholder="Enter PAN Number Here." [(ngModel)]="panNumber"> <br>
+
+            <button class="btn btn-warning" (click)="signup()">Sign Up</button>
+            <br>
+            <p>{{output}}</p>
+        </div>
+    </div>
+</div>

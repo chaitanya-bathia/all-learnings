@@ -1,0 +1,26 @@
+<form [formGroup]="PersonForm">
+  <input type="text" formControlName="name" placeholder="Enter name"><br>
+  <input type="email" formControlName="email" placeholder="Enter email"><br>
+  <label>Gender</label>
+  <input type="radio" name="gender" value="Male" formControlName="gender">Male<br>
+  <input type="radio" name="gender" value="Female" formControlName="gender">Female<br>
+
+  <input type="date" formControlName="dateOfBirth" placeholder=""><br>
+  <label>Skills</label>
+  <div *ngFor="let skill of PersonForm.value.skills.controls; let i=index">
+    <input type="text" [formControlName]="i" placeholder="add skill">
+  </div>
+  <button (click)="addSkill()">AddSkill</button>
+  <button (click)="submitData()" [disabled]="!PersonForm.valid">
+    Save
+  </button>
+</form>
+
+<div *ngFor="let person of personArray">
+  <div>
+    <h3>{{person.name}}</h3>
+    <h4>{{person.email}}</h4>
+    <h4>{{person.gender}}</h4>
+    <h4>{{person.dateOfBirth}}</h4>
+  </div>
+</div>

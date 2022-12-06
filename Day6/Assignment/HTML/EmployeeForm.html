@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Employee Form</h1>
+    <form style="text-align: center;">
+        <table style="width: 60%; margin-left: auto; margin-right: auto;">
+            <caption hidden>This table fills form for employee details</caption>
+            <tr>
+                <th><label for="txtEmployeeName">Employee Name:</label></th>
+                <td><input type="text" placeholder="Enter Name Here." id="txtEmployeeName" required></td>
+                <td><label for="numAge">Age:</label></td>
+                <td><input type="number" id="numAge" required></td>
+            </tr>
+            <tr>
+                <td><label for="radioGender">Gender:</label></td>
+                <td>
+                    <input type="radio" value="male" name="gender" required> Male
+                    <input type="radio" value="female" name="gender" > Female
+                    <input type="radio" value="other" name="gender"> Other
+                </td>
+                <td><label for="list-data">Designation:</label></td>
+                <td>
+                    <input type="text" list="myDataList" id="list-data">
+                    <datalist id="myDataList">
+                        <option label="Developer Trainee" value="Developer Trainee"></option>
+                        <option label="QA Trainee" value="QA Trainee"></option>
+                        <option label="HR Trainee" value="HR Trainee"></option>
+                        <option label="Junior Developer" value="Junior Developer"></option>
+                        <option label="Senior Developer" value="Senior Developer"></option>
+                        <option label="Team Lead" value="Team Lead"></option>
+                        <option label="Project Head" value="Project Head"></option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="numSalary">Salary:</label></td>
+                <td><input type="number" name="Salary" id="numSalary" min="10000" step="1000" required></td>
+                <td><label for="ddlLocation">Location:</label></td>
+                <td>
+                    <select name="Location" id="ddlLocation" required>
+                        <option value="Ahmedabad">Ahmedabad</option>
+                        <option value="Rajkot">Rajkot</option>
+                        <option value="Vadodara">Vadodara</option>
+                        <option value="Jamnagar">Jamnagar</option>
+                        <option value="Surat">Surat</option>
+                        <option value="Mehsana">Mehsana</option>
+                        <option value="Surendranagar">Surendranagar</option>
+                        <option value="Dwarka">Dwarka</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" placeholder="abc@xyz.com" required></td>
+                <td><label for="dateJoining">Date of Joining:</label></td>
+                <td><input type="date" id="dateJoining" required ></td>
+            </tr>
+            <tr>
+                <td><label for="telContactNumber">Contact Number:</label></td>
+                <td><input type="tel" id="telContactNumber" required></td>
+            </tr>
+        </table>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col text-center">
+            <h1 class="bg-dark text-white">Product</h1>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-4 mx-auto">
+            <label for="txtName">Product Name:</label>
+            <input type="text" class="form-control" id="txtName" [(ngModel)]="objProduct.productName"><br>
+
+            <label for="numPrice">Price:</label>
+            <input type="number" class="form-control" id="numPrice" [(ngModel)]="objProduct.price"><br>
+
+            <label for="numQuantity">Quantity:</label>
+            <input type="number" class="form-control" id="numQuantity" [(ngModel)]="objProduct.quantity"><br>
+
+            <button (click)="addProduct()" class="btn btn-success">Add Product</button>
+            <br>
+            <p>{{objProduct.productName}}</p>
+        </div>
+    </div>
+</div>
+<app-product-list [arrProducts]="arrProducts"></app-product-list>

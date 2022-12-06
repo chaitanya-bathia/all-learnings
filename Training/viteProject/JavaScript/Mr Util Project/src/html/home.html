@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
+    <script src="../../../../node_modules/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/7b16ecc569.js" crossorigin="anonymous"></script> -->
+    <script src="../../../../node_modules/jquery//dist/jquery.min.js"></script>
+    <title>Home | Mr. Util</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-warning d-flex flex-row">
+        <button class="btn border-3 border-dark mx-3" type="button" onclick="openSidePanel()">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <span class="h2">Mr. Util</span>
+
+        <a href="./login.html" class="btn border-3 border-dark mx-3">Logout</a>
+    </nav>
+    <div id="sidePanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSidePanel()">&times;</a>
+        <a href="./home.html"><span class="fa fa-home"></span> Home</a>
+        <a href="./clock.html"> <span class="fa-regular fa-clock"></span> Clock</a>
+        <a href="#"><span class="fa fa-calculator"></span> Calculator</a>
+        <a href="#"><span class="fa fa-list-check"></span> To-Do List</a>
+    </div>
+
+    <div class="container-fluid text-white my-5">
+        <div class="row">
+            <div class="col-4 p-0 mx-auto text-center">
+               <a class="btn homebtn col-12 border-3 border-dark my-2" href="../html/clock.html"> <span class="fa fa-clock"></span> <strong> Open Clock</strong></a>
+               <a class="btn homebtn col-12 border-3 border-dark my-2"><span class="fa fa-calculator"></span> <strong> Open Calculator</strong></a>
+               <a class="btn homebtn col-12 border-3 border-dark my-2"><span class="fa fa-list-check"></span> <strong> Open To-Do List</strong></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/home.js"></script>
+</body>
+</html>

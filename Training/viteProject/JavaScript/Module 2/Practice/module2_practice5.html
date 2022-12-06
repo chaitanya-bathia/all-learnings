@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module2 Practice 5</title>
+</head>
+<body>
+    
+    <h1>Working with List</h1>
+
+    <h3 id="displaylist"></h3>
+    <button onclick="pushElement()">Push Element</button>
+    <button onclick="popElement()">Pop Element</button>
+    <button onclick="deleteElement()">Delete Element</button>
+    <button onclick="shiftElement()">Shift Element</button>
+
+    <h3 id="result"></h3>
+    
+    <script>
+
+        const arr = ["Element 0" , "Element 1" , "Element 2" , "Element 3" , "Element 4" , "Element 5"];
+
+        for (const i of arr) 
+        {
+            document.getElementById("displaylist").innerHTML += i+"  ";    
+        }
+
+        function pushElement()
+        {
+            resetDisplay();
+            arr.push(window.prompt("Enter the content you want to push:"));
+
+            for (const i of arr) 
+            {
+                document.getElementById("result").innerHTML += i+"  ";    
+            }
+        }
+
+        function popElement()
+        {
+            resetDisplay();
+            if(arr.length>0)
+            {
+                document.getElementById("result").innerHTML = arr.pop(); 
+            }
+            else
+            {
+                document.getElementById("result").innerHTML = "List is empty. Cannot Pop.";
+            }
+            
+        }
+
+        function deleteElement()
+        {
+            resetDisplay();
+            let delIndex = window.prompt("Which index do you wish to delete?");
+
+            if(delIndex>=arr.length)
+            {
+                alert("The Index you entered, exceeds the array size.");
+            }
+            else
+            {
+                delete arr[delIndex];
+            }
+            for (const i of arr) 
+            {
+                document.getElementById("result").innerHTML += i+"  ";    
+            }
+        }
+
+        function shiftElement()
+        {
+            resetDisplay();
+            arr.shift();
+            for (const i of arr) 
+            {
+                document.getElementById("result").innerHTML += i+"  ";    
+            }
+        }
+
+        function resetDisplay()
+        {
+            document.getElementById("result").innerHTML="";
+        }
+
+    </script>
+</body>
+</html>

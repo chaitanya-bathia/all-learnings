@@ -1,0 +1,34 @@
+#parentDiv
+{
+    background-color: blue;
+    height: 110px;
+}
+
+div
+{
+    margin:2px;
+}
+
+#leftFloat
+{
+    width: 33%;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+
+#middleFloat
+{
+    width: 33%;
+    height: 100px;
+    background-color: green;
+    float: left;
+}
+
+#rightFloat
+{
+    width: 33%;
+    height: 100px;
+    background-color: yellow;
+    float:right;
+}

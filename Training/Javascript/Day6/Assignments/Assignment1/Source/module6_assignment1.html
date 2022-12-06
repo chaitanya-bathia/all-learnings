@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <table id="newtab" class="table table-dark table-hover">
+        <caption hidden>Table</caption>
+        <thead>
+            <th scope="heading">Product ID</th>
+            <th scope="heading">Product Name</th>
+            <th scope="heading">Price</th>
+            <th scope="heading">Quantity</th>
+            <th scope="heading">Button</th>
+        </thead>
+    </table>
+
+    <button id="cartsummary" class="btn btn-dark" onclick="getsummary()">Cart Summary</button>
+    <button id="resetlocal" class="btn btn-dark mx-2" onclick="resetlocal()">Reset Local Storage</button>
+
+    <p id="cart"></p>
+
+    <script>
+        let text = ' { "products" : ['+
+                '{ "id":1 , "Name": "Cheese", "Price" : 100, "Quntity": 1},'+
+
+                '{ "id":2 , "Name": "Pen", "Price" : 150, "Quntity": 2},'+
+
+                '{ "id":3 , "Name": "Butter", "Price" : 100, "Quntity": 1},'+
+
+                '{ "id":4 , "Name": "Pencil", "Price" : 10, "Quntity": 1},'+
+
+                '{ "id":5 , "Name": "Fruit", "Price" : 30, "Quntity": 4},'+
+
+                '{ "id":6 , "Name": "Cheese", "Price" : 2.50, "Quntity": 3}]}';
+
+        const obj = JSON.parse(text);
+        for (let i = 0; i < 5; i++) {
+            document.getElementById("newtab").innerHTML +=
+           "<tr> <td>" +obj.products[i].id + "</td> <td>"+ obj.products[i].Name + "</td> <td> " + obj.products[i].Price+ "</td> <td>" + obj.products[i].Quntity +" </td> <td> <button onclick=\"addtocart()\">Add to cart</button> </td> </tr>";   
+    
+        }
+
+        var count=0;
+        var g = document.getElementById('newtab');
+        for (let i = 0, len = g.children.length; i < len; i++)
+        {
+        
+            (function(index){
+                g.children[i].onclick = function(){
+                    localStorage.setItem(obj.products[i-1].Name, obj.products[i-1].Price);
+                    count++;
+                }    
+            })(i);
+        
+        }
+
+        function getsummary() {
+            for(let x=0;x<=count;x++)
+            {
+               console.log(localStorage.key(x) + " " + localStorage.getItem(localStorage.key(x)));
+           
+
+            }
+            
+        }
+
+
+        function resetlocal()
+        {
+            localStorage.clear();
+        }
+        function addtocart() {
+
+        }
+    </script>
+</body>
+</html>

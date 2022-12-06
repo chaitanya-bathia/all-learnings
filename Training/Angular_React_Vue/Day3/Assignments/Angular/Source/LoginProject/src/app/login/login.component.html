@@ -1,0 +1,14 @@
+<div class="text-center">
+    <h1 class="bg-warning">Login Page</h1>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2 mx-auto my-2">
+            <input type="text" class="form-control" placeholder="Username" id="txtUsernameLogin" [(ngModel)]="username"><br><br>
+            <input type="password" class="form-control" placeholder="Password" id="txtPasswordLogin" [(ngModel)]="password"><br><br>
+            <button class="btn btn-primary" (click)="validateLogin()">Login</button>
+            <p>{{result}}</p>
+        </div>
+    </div>
+</div>

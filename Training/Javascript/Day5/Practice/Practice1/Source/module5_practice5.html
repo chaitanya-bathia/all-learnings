@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mod5 practice 5</title>
+</head>
+<body>
+    <h2 id="demo"></h2>
+    <script>
+        const employee = {
+            info : function(address,designation){
+                return "Employee Name : " + this.name +","+ " Employee Address : " + address+"," + " Employee Designation :  " + designation  ;
+            }
+        }
+
+        
+
+        const employee1 = {
+            name : "demoPerson"
+        }
+        document.getElementById("demo").innerHTML = employee.info.apply(employee1, ["demoAddress","Tester"]) ;
+        
+    </script>
+</body>
+</html>

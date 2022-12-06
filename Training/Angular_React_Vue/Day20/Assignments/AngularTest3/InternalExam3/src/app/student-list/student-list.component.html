@@ -1,0 +1,19 @@
+<table>
+    <caption hidden>Table</caption>
+    <thead>
+        <tr>
+            <th scope="heading">Name</th>
+            <th scope="heading">Address</th>
+            <th scope="heading">PAN Number</th>
+            <th scope="heading">Phone Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let student of studentList">
+            <td>{{student.name}}</td>
+            <td>{{student.address}}</td>
+            <td>{{student.panNumber}}</td>
+            <td>{{student.phoneNumber}}</td>
+        </tr>
+    </tbody>
+</table>

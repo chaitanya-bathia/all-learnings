@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tailwind-index.css">
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./tailwindindex.js"></script>
+    <title>Tailwind Index</title>
+</head>
+
+<body class="bg-light">
+    <div id="app"></div>
+    <div id="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <a class="btn btn-dark" href="../../index.html">Go back</a>
+                </div>
+                <div class="col-10">
+                    <p class="h2 text-white text-center">Tailwind Index</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid h-100">
+        <div class="row">
+            <div class="col-2 mr-1 bg-secondary" id="js-sidebar">
+
+                <!-- Module 1 -->
+                <button class="btn btn-primary my-5 d-block" onclick="display_tailwind1()">Blog</button>
+                <button class="btn btn-primary my-5 d-block" onclick="display_tailwind2()">FoodNinja</button>
+                <button class="btn btn-primary my-5 d-block" onclick="display_tailwind3()">Portfolio</button>
+                <button class="btn btn-primary my-5 d-block" onclick="display_tailwind4()">TW-Elements</button>
+
+            </div>
+            <div class="col-10 ml-1" id="tailwind-mainSection"></div>
+        </div>
+    </div>
+</body>
+
+</html>

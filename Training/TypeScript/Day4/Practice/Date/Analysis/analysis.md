@@ -1,0 +1,2 @@
+The Date datatype takes input in different ways, and is used to work with calendar dates.
+Date can be set, get, and parameters like year, month, date, day, hour, minutes and seconds can be get and set using methods belonging to the date class.

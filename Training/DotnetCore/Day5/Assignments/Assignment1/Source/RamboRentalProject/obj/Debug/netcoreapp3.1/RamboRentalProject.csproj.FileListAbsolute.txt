@@ -1,0 +1,14 @@
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day5\Assignments\Assignment1\Source\RamboRentalProject\bin\Debug\netcoreapp3.1\RamboRentalProject.exe
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day5\Assignments\Assignment1\Source\RamboRentalProject\bin\Debug\netcoreapp3.1\RamboRentalProject.deps.json
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day5\Assignments\Assignment1\Source\RamboRentalProject\bin\Debug\netcoreapp3.1\RamboRentalProject.runtimeconfig.json
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day5\Assignments\Assignment1\Source\RamboRentalProject\bin\Debug\netcoreapp3.1\RamboRentalProject.runtimeconfig.dev.json
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day5\Assignments\Assignment1\Source\RamboRentalProject\bin\Debug\netcoreapp3.1\RamboRentalProject.dll
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day5\Assignments\Assignment1\Source\RamboRentalProject\bin\Debug\netcoreapp3.1\RamboRentalProject.pdb
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day5\Assignments\Assignment1\Source\RamboRentalProject\obj\Debug\netcoreapp3.1\RamboRentalProject.csproj.AssemblyReference.cache
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day5\Assignments\Assignment1\Source\RamboRentalProject\obj\Debug\netcoreapp3.1\RamboRentalProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day5\Assignments\Assignment1\Source\RamboRentalProject\obj\Debug\netcoreapp3.1\RamboRentalProject.AssemblyInfoInputs.cache
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day5\Assignments\Assignment1\Source\RamboRentalProject\obj\Debug\netcoreapp3.1\RamboRentalProject.AssemblyInfo.cs
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day5\Assignments\Assignment1\Source\RamboRentalProject\obj\Debug\netcoreapp3.1\RamboRentalProject.csproj.CoreCompileInputs.cache
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day5\Assignments\Assignment1\Source\RamboRentalProject\obj\Debug\netcoreapp3.1\RamboRentalProject.dll
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day5\Assignments\Assignment1\Source\RamboRentalProject\obj\Debug\netcoreapp3.1\RamboRentalProject.pdb
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day5\Assignments\Assignment1\Source\RamboRentalProject\obj\Debug\netcoreapp3.1\RamboRentalProject.genruntimeconfig.cache

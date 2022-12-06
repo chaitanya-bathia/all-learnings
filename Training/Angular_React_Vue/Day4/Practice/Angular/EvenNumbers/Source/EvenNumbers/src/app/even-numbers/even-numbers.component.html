@@ -1,0 +1,4 @@
+<button (click)="generateArray()">Click here.</button>
+<div *ngFor="let item of list">
+    <p *ngIf="item%2==0">{{item}}</p>
+</div>

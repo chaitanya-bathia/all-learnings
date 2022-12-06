@@ -1,0 +1,14 @@
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day9\Practice\Practice3\Source\Day9Practice3\bin\Debug\netcoreapp3.1\Day9Practice3.exe
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day9\Practice\Practice3\Source\Day9Practice3\bin\Debug\netcoreapp3.1\Day9Practice3.deps.json
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day9\Practice\Practice3\Source\Day9Practice3\bin\Debug\netcoreapp3.1\Day9Practice3.runtimeconfig.json
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day9\Practice\Practice3\Source\Day9Practice3\bin\Debug\netcoreapp3.1\Day9Practice3.runtimeconfig.dev.json
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day9\Practice\Practice3\Source\Day9Practice3\bin\Debug\netcoreapp3.1\Day9Practice3.dll
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day9\Practice\Practice3\Source\Day9Practice3\bin\Debug\netcoreapp3.1\Day9Practice3.pdb
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day9\Practice\Practice3\Source\Day9Practice3\obj\Debug\netcoreapp3.1\Day9Practice3.csproj.AssemblyReference.cache
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day9\Practice\Practice3\Source\Day9Practice3\obj\Debug\netcoreapp3.1\Day9Practice3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day9\Practice\Practice3\Source\Day9Practice3\obj\Debug\netcoreapp3.1\Day9Practice3.AssemblyInfoInputs.cache
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day9\Practice\Practice3\Source\Day9Practice3\obj\Debug\netcoreapp3.1\Day9Practice3.AssemblyInfo.cs
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day9\Practice\Practice3\Source\Day9Practice3\obj\Debug\netcoreapp3.1\Day9Practice3.csproj.CoreCompileInputs.cache
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day9\Practice\Practice3\Source\Day9Practice3\obj\Debug\netcoreapp3.1\Day9Practice3.dll
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day9\Practice\Practice3\Source\Day9Practice3\obj\Debug\netcoreapp3.1\Day9Practice3.pdb
+D:\Training\2437-Chaitanya.B-Feb22\.NetCore\Day9\Practice\Practice3\Source\Day9Practice3\obj\Debug\netcoreapp3.1\Day9Practice3.genruntimeconfig.cache

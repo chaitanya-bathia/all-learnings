@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Area of Rectangle</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <input class="form-control" type="number" placeholder="Enter Length Here" [(ngModel)]="length"><br>
+            <input class="form-control" type="number" placeholder="Enter Width Here" [(ngModel)]="width"><br>
+            <button class="btn btn-secondary" (click)="calculateArea()">Calculate Area</button>
+            <h4 >{{result}}</h4>
+        </div>
+    </div>
+</div>

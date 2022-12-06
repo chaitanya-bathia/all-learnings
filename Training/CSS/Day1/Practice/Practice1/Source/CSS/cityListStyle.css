@@ -1,0 +1,9 @@
+.cityDiv
+{
+    display: inline-block;
+    font-size: x-large;
+    font-weight: bolder;
+    box-shadow: 0px 0px 5px;
+    margin: 5px;
+    padding: 5px;
+}

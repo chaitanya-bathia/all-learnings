@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 5 practice 6</title>
+</head>
+<body>
+
+    
+    <button id="btndemo" onclick="add()">Click to increase counter</button>
+    <h2 id="result"></h2>
+    <script>
+        const num = (function()
+        {
+            let sum=0;
+            return function(){sum++; return sum;}
+        })();
+
+        function add()
+        {
+            document.getElementById("result").innerHTML = num();
+        }
+    </script>
+</body>
+</html>

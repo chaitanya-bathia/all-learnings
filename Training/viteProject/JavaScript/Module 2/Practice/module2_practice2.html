@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2 Practice 2</title>
+</head>
+<body>
+    
+    <button id="checkbtn" onclick="check()">Click</button>
+    <h3 id="arraydisplay"></h3>
+
+    <script>
+        function check()
+        {
+            var str = window.prompt("Enter your string: ");
+
+            const arr = str.split(" ");
+
+            for (const i of arr) {
+                document.getElementById("arraydisplay").innerHTML += i+"<br>";
+            }
+        }
+    </script>
+</body>
+</html>

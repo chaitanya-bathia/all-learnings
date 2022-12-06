@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Module 3 W3 Practice</title>
+</head>
+<body>
+    <h3 id="dom1"></h3>
+    <button id="btndom1" onclick="tryDOM1()">Try DOM 1 Exercise</button><br><br>
+
+    <h3 id="dom2"></h3>
+    <button id="btndom2" onclick="tryDOM2()">Try DOM 2 Exercise</button><br><br>
+
+    <img src="https://www.freepnglogos.com/uploads/windows-logo-png/windows-logo-logok-0.png" alt="testImg" id="dom4"></img>
+    <button id="btndom4" onclick="tryDOM4()">Try DOM 4 Exercise</button><br><br>
+
+    <input type="text" id="dom5" value="Hello">
+    <button id="btndom5" onclick="tryDOM5()">Try DOM 5 Exercise</button><br><br>
+
+    <h3 id="dom6">This will turn red on clicking the button.</h3>
+    <button id="btndom6" onclick="tryDOM6()">Try DOM 6 Exercise</button><br><br>
+
+    <h3 id="dom8"> This will disappear on clicking the button.</h3>
+    <button id="btndom8" onclick="tryDOM8()">Try DOM 8 Exercise</button><br><br>
+
+    <script>
+        function tryDOM1()
+        {
+            document.getElementById("dom1").innerHTML = "Hello!";
+        }
+
+        function tryDOM2()
+        {
+            document.getElementsByTagName("h3")[1].innerHTML = "Hello DOM2!";
+        }
+
+        function tryDOM4()
+        {
+            document.getElementById("dom4").src = "https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png";
+        }
+
+        function tryDOM5()
+        {
+            document.getElementById("dom5").value = "Have a nice day!";
+        }
+
+        function tryDOM6()
+        {
+            document.getElementById("dom6").style.color = "red";
+        }
+
+        function tryDOM8()
+        {
+            document.getElementById("dom8").style.display = "none";
+        }
+    </script>
+</body>
+</html>

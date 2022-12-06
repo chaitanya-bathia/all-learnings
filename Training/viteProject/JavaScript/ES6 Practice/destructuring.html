@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Destructuring Demo</title>
+</head>
+<body>
+
+    <h2>Array Destructuring demo</h2>
+    <p id="arrayMain">Original Array: </p>
+    <p id="destructuredArray">Destructured array elements: </p>
+    <button onclick="destructureArray()">Click for Array Destructuring</button>
+
+    <h2>Object Destructuring demo</h2>
+    <p id="objMain">Original Object: </p>
+    <p id="destructuredObj">Destructured Object elements: </p>
+    <button onclick="destructureObject()">Click for Object Destructuring</button>
+
+
+    <h2>Function Destructuring</h2>
+    <p id="destructureFunction">Accessing values of an object by destructuring it on function call:</p>
+    <button onclick="destructureFunction()">Click to Destructure Function</button>
+    <script>
+        const arr = [1,2,3,4,5,6];
+        
+        function destructureArray()
+        {
+            const [num1,num2,num3, num4,num5,num6] = arr;
+            document.getElementById("arrayMain").innerHTML += arr;
+
+            document.getElementById("destructuredArray").innerHTML += num1;
+            document.getElementById("destructuredArray").innerHTML += num2;
+            document.getElementById("destructuredArray").innerHTML += num3;
+            document.getElementById("destructuredArray").innerHTML += num4;
+            document.getElementById("destructuredArray").innerHTML += num5;
+            document.getElementById("destructuredArray").innerHTML += num6;
+        }
+
+        const person = {
+            name:'kyle',
+            job:'developer',
+            city:'chicago'
+        }
+
+        function destructureObject()
+        {
+            const {name,job,city} = person;
+
+            document.getElementById("objMain").innerHTML += person;
+
+            document.getElementById("destructuredObj").innerHTML += `<br>Name = ${name}<br>`;
+            document.getElementById("destructuredObj").innerHTML += `job = ${job}<br>`;
+            document.getElementById("destructuredObj").innerHTML += `city = ${city}<br>`;
+        }
+
+        function destructureFunction()
+        {
+            function demodestructfunc({name, job, city})
+            {
+                document.getElementById("destructureFunction").innerHTML += `<br>Name = ${name}<br>`;
+                document.getElementById("destructureFunction").innerHTML += `job = ${job}<br>`;
+                document.getElementById("destructureFunction").innerHTML += `city = ${city}<br>`;
+            }
+
+            demodestructfunc(person)
+        }
+
+    </script>
+</body>
+</html>

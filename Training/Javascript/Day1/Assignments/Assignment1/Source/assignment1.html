@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Module 1 Assi
+        gnment</title>
+</head>
+<body>
+
+    <form id="form1">
+        <label for="num1">Please Enter First Number:</label>
+        <input type="number" id="num1" required>
+        <br>
+        <label for="num2">Please Enter Second Number:</label>
+        <input type="number" id="num2" required>
+        <br>
+        <label for="radiogroup">Please Select the Operation you want to perform:</label>
+        <div id="radiogroup">
+            <input type="radio" name="operation" id="addition" required>Addition <br>
+            <input type="radio" name="operation" id="subtraction">Subtraction <br>
+            <input type="radio" name="operation" id="multiplication">Multiplication <br>
+            <input type="radio" name="operation" id="division">Division <br>
+        </div>
+        
+    </form>
+    <button id="calculate" onclick="calculate()">Calculate</button>
+    <button id="reset" value="Reset" onclick="reset()">Reset</button>
+    
+    <h3 id="result">Result is:</h3>
+    
+
+    <script src="./assignment1.js"></script>
+</body>
+</html>

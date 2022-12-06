@@ -1,0 +1,35 @@
+#resumeHead
+{
+    text-align: center;
+}
+
+#contactDetails
+{
+    text-align: right;
+    font-weight: bold;
+}
+
+#name
+{
+    text-align: left;
+}
+
+.sectionHeader
+{
+    width: 60%;
+    border-bottom: 2px solid black; 
+    margin: 0px auto;
+}
+
+.sectionContent
+{
+    width: 60%;
+    margin: 0px auto;
+}
+
+#qualifications
+{
+    text-align: center; 
+    width: 60%; 
+    margin:10px auto ;
+}

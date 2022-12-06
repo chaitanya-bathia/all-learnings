@@ -1,0 +1,11 @@
+#hideElement
+{
+    background-color: teal;
+}
+
+@media (max-width:500px){
+    #hideElement
+    {
+        visibility: hidden;
+    }
+}

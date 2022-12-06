@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript ES6 Practice</title>
+</head>
+
+<body>
+    <h1>Dynamic template string.</h1>
+
+    <span id="display"></span>
+
+    <button onclick="workArrow()">Click to see Arrow function demo</button>
+    <h4 id="displayArrow"></h4>
+
+    <button onclick="defaultDemo()">Click to see Default parameter Demo</button>
+    <h3 id="defaultDisplay"></h3>
+
+    <p id="checkForOf">Result of running "For Of" loop on an array:</p>
+    <button onclick="checkForof()">Click to run ForOf Loop</button>
+
+    <h2>Spread Operator</h2>
+    <p id="spreadArr">new array created after Spread operator(same as old, but data is copied instead of accessing same data as old array:) => </p>
+    <button onclick="spreadArray()">Click to apply Spread operator</button>
+
+    <h2>Rest Operator</h2>
+    <p id="originalRest"></p>
+    <p id="restResult"></p>
+    <button onclick="restArray()">Click to test Rest</button>
+
+
+    <h2>Array.of</h2>
+    <p>Generally, arrays are a collection of elements of similar data type. However, Array.of allows us to create an array which contains elements of different data types.</p>
+    <p id="demoArrayOf"></p>
+    <button onclick="arrayOf()">Click for Array.of Demo</button>
+    
+
+    <h3>Array.from string</h3>
+    <p id="string">Original String: </p>
+    <p id="arrayFromString">Array from string: </p>
+    <button onclick="arrayFromString()">Click to make array from String</button>
+    
+    
+    <script>
+
+        const person = {
+            name: "kyle",
+            job: "developer",
+            hobbies: ["sports", "surfing", "reading"]
+        };
+
+
+        const result = document.getElementById("display");
+
+        result.innerHTML =
+            `<h2>${person.name}</h2>
+            <p>${person.job}</p>
+            <ul>${person.hobbies.map(item => {
+                return `<li>${item}</li>`;
+            }).join("")}</ul>
+            `;
+
+
+        function workArrow()
+        {
+            const square = num => num*num;
+
+            document.getElementById("displayArrow").innerHTML =  (square(prompt("Enter number to get square value:")));
+        }
+
+        function defaultDemo(output = "DefaultPerson")
+        {
+            document.getElementById("defaultDisplay").innerHTML = `Hello ${output}`;
+        }
+
+        function checkForof()
+        {
+            const fruits = ["apple", "banana", "mango", "orange", "grapes"];
+
+            for (const i of fruits) {
+                document.getElementById("checkForOf").innerHTML += `<br> ${i}`;
+            }
+        }
+
+        function spreadArray()
+        {
+            const arr = [1,2,3,4,5,6];
+            const newArr = [...arr];
+
+            document.getElementById("spreadArr").innerHTML+= newArr;
+        }
+
+        function restArray()
+        {
+            const restArr = ['a','b','c','d','e'];
+            const [first, ...rest] = restArr;
+
+            document.getElementById("originalRest").innerHTML = restArr;
+            document.getElementById("restResult").innerHTML = (rest);
+        }
+
+        function arrayOf()
+        {
+            document.getElementById("demoArrayOf").innerHTML = Array.of("Hello",2,false);
+        }
+
+        function arrayFromString()
+        {
+            const str = prompt("Enter String.");
+            document.getElementById("string").innerHTML += str;
+            document.getElementById("arrayFromString").innerHTML += Array.from(str);
+        }
+    </script>
+</body>
+
+</html>

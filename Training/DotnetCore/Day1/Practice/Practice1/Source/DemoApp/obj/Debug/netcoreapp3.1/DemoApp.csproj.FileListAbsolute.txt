@@ -1,0 +1,14 @@
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Practice\Practice1\Source\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.exe
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Practice\Practice1\Source\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.deps.json
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Practice\Practice1\Source\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.runtimeconfig.json
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Practice\Practice1\Source\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.runtimeconfig.dev.json
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Practice\Practice1\Source\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.dll
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Practice\Practice1\Source\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.pdb
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Practice\Practice1\Source\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.csproj.AssemblyReference.cache
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Practice\Practice1\Source\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Practice\Practice1\Source\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.AssemblyInfoInputs.cache
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Practice\Practice1\Source\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.AssemblyInfo.cs
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Practice\Practice1\Source\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.csproj.CoreCompileInputs.cache
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Practice\Practice1\Source\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.dll
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Practice\Practice1\Source\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.pdb
+C:\Users\chaitanya.bathia\Desktop\Training\2437-Chaitanya.B-Feb22\C#\Day1\Practice\Practice1\Source\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.genruntimeconfig.cache

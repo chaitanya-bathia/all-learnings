@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+    <title>jQuery Module 1 Practice</title>
+</head>
+<body>
+    
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, quae.</p>
+    <span id="helpText">This is some help text. hover to see.</span>
+
+
+    <form>
+        <label for="radioGrp">Please Select your technology:</label>
+        <div  id="radioGrp">
+            <input type="radio" name="tech" id="rb_php" ><label for="rb_php">PHP</label>
+            <input type="radio" name="tech" id="rb_aspnet"><label for="rb_aspnet">ASP.NET</label>
+            <input type="radio" name="tech" id="rb_asp"><label for="rb_asp">ASP</label>
+            <input type="radio" name="tech" id="rb_jsp"><label for="rb_jsp">JSP</label>
+            <input type="radio" name="tech" id="rb_perl"><label for="rb_perl">PERL</label>
+            <input type="radio" name="tech" id="rb_coldfusion"><label for="rb_coldfusion">Cold Fusion</label>
+            <input type="radio" name="tech" id="rb_other"><label for="rb_other">Other</label>
+        </div>
+    </form>
+
+    <span>You have Selected: </span>
+    <span class="displayName" id="span_php" style="display: none;">PHP</span>
+    <span class="displayName" id="span_aspnet" style="display: none;">ASP.NET</span>
+    <span class="displayName" id="span_asp" style="display: none;">ASP</span>
+    <span class="displayName" id="span_jsp" style="display: none;">JSP</span>
+    <span class="displayName" id="span_perl" style="display: none;">PERL</span>
+    <span class="displayName" id="span_coldfusion" style="display: none;">Cold Fusion</span>
+    <span class="displayName" id="span_other" style="display: none;">Other</span>
+    
+    <script>
+        $("p").css({'color':'blue','font-size':'30px','font-weight':'bold'});
+        $("span#helpText").hover(function(){$("span#helpText").css({'color':'black'})},function(){$("span#helpText").css({'color':'white', 'background':'yellow'})});
+
+        $("#rb_php").click(function(){$("span.displayName").css({'display':'none'}); $("#span_php").css({'display':'inline'})});
+
+        $("#rb_aspnet").click(function(){$("span.displayName").css({'display':'none'}); $("#span_aspnet").css({'display':'inline'})});
+
+        $("#rb_asp").click(function(){$("span.displayName").css({'display':'none'}); $("#span_asp").css({'display':'inline'})});
+
+        $("#rb_jsp").click(function(){$("span.displayName").css({'display':'none'}); $("#span_jsp").css({'display':'inline'})});
+
+        $("#rb_perl").click(function(){$("span.displayName").css({'display':'none'}); $("#span_perl").css({'display':'inline'})});
+
+        $("#rb_coldfusion").click(function(){$("span.displayName").css({'display':'none'}); $("#span_coldfusion").css({'display':'inline'})});
+
+        $("#rb_other").click(function(){$("span.displayName").css({'display':'none'}); $("#span_other").css({'display':'inline'})});
+    </script>
+</body>
+</html>

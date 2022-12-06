@@ -1,0 +1,4 @@
+text
+new text
+new conflict
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4 Practice 2</title>
+</head>
+<body>
+    <h1>Difference between var and let keywords</h1>
+    <h3 id="sameblock">This is the case where declaration and access of variables is done in same block.</h3>
+    <h3 id="newblock">This is the case where declaration and access of variables is done in different block.</h3>
+
+    <h3>This demonstrates that "let" keyword declares variables that cannot be accessed outside the block they are declared in. But ones declared with var can be accessed anywhere.</h3>
+    <script>
+        {
+            var demo1 = "trying var";
+            let demo2 = "trying let";
+            document.getElementById("sameblock").innerHTML += "Value of variable initialized with \"var\" is " + demo1;
+            document.getElementById("sameblock").innerHTML += " and Value of variable initialized with \"let\" is " + demo2;
+        }
+
+        {
+            document.getElementById("newblock").innerHTML += "Value of variable initialized with \"var\" is " + demo1;
+            document.getElementById("newblock").innerHTML += "and Value of variable initialized with \"let\" is " + demo2;
+        }
+    </script>
+</body>
+</html>

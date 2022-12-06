@@ -1,0 +1,9 @@
+ALTER TABLE JobHistory
+ADD FOREIGN KEY (JobID) 
+REFERENCES Jobs(JobID)
+
+ALTER TABLE JobHistory
+DROP CONSTRAINT FK__JobHistor__JobID__3F466844
+
+ALTER TABLE JobHistory
+ADD Location varchar(50)

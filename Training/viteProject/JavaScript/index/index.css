@@ -1,0 +1,121 @@
+#topbar
+{
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+
+.topbar-button
+{
+    border: none;
+    background: none;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px;
+}
+
+.topbar-button:hover
+{
+    background-color: lightblue;
+    color: black;
+}
+
+#mainSection
+{
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+#sidebar
+{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    height: 100%;
+    flex: 18%;
+}
+
+#mainContent
+{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    flex: 78%;
+}
+
+.sidebar-button
+{
+    display: block;
+    width: 70%;
+    margin: 5px;
+    border-radius: 0 20px 20px 0;
+    padding:10px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.sidebar-button:hover
+{
+    background-color: maroon;
+}
+
+.sub-button
+{
+    margin: 5px;
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: small;
+    font-weight: bolder;
+    display: block;
+}
+
+.practice-button
+{
+    margin: 5px;
+    margin-left: 45px;
+    padding: 8px;
+    border-radius: 20px;
+    color: white;
+    background-color: darkcyan;
+    border: none;
+    font-size: small;
+    font-weight: bold;
+    display: block;
+}
+
+.assignment-button
+{
+    margin: 5px;
+    margin-left: 45px;
+    padding: 8px;
+    border-radius: 20px;
+    color: white;
+    background-color: darkolivegreen;
+    border: none;
+    font-size: small;
+    font-weight: bold;
+    display: block;
+}
+
+#module1, #module2
+{
+    display: none;
+}
+
+#htmlContent
+{
+    display: block;
+}
+
+#cssContent
+{
+    display: none;
+}
